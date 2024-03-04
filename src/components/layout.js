@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`
+          padding: `var(--size-gutter)`,
         }}
       >
         <main>{children}</main>
@@ -39,9 +39,8 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()} &middot; Built with a help of a{` `}
+          <a href="https://www.alexmichalsky.com">friend</a>
         </footer>
       </div>
     </>

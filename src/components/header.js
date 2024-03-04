@@ -104,6 +104,23 @@ const Header = ({ lositeTitle }) => (
         style={{ marginBottom: `var(--space-3)` }}
       />
     </Link>
+    <Link
+      to="/projekte"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      <StaticImage
+        src="../images/projekte.png"
+        loading="eager"
+        width={150}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{ marginBottom: `var(--space-3)` }}
+      />
+    </Link>
   </header>
 )
 
