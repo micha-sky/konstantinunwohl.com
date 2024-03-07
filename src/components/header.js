@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="flex flex-col items-center justify-between fixed w-full mx-auto p-4">
     <Link to="/" className="text-sm no-underline mb-3">
       <StaticImage
@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
       />
     </Link>
 
-    <div className="flex flex-row justify-between w-full">
+    <div className="links-container flex flex-row justify-between w-8/12">
       <Link
         to="https://konstantinunwohl.bandcamp.com/"
         className="text-sm no-underline mb-3"
