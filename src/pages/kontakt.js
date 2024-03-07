@@ -64,14 +64,14 @@ const Kontakt = () => (
         <FontAwesomeIcon icon={faSpotify} /> Spotify
       </a>
       <a
-        href="https://soundcloud.com/jeffholder"
+        href="https://soundcloud.com/unwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faSoundcloud} /> Soundcloud
       </a>
       <a
-        href="https://music.apple.com/profile/your_username"
+        href="https://music.apple.com/de/artist/konstantin-unwohl/1539275591?l=en-GB"
         target="_blank"
         rel="noopener noreferrer"
       >

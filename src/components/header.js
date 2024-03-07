@@ -44,7 +44,7 @@ const Header = () => (
           width={150}
           quality={95}
           formats={["auto", "webp", "avif"]}
-          alt=""
+          alt="Lyrics"
           style={{ marginBottom: `var(--space-3)` }}
         />
       </Link>
@@ -62,7 +62,7 @@ const Header = () => (
           width={150}
           quality={95}
           formats={["auto", "webp", "avif"]}
-          alt=""
+          alt="Kontakt"
           style={{ marginBottom: `var(--space-3)` }}
         />
       </Link>
@@ -80,7 +80,7 @@ const Header = () => (
           width={150}
           quality={95}
           formats={["auto", "webp", "avif"]}
-          alt=""
+          alt="Konzerte"
           style={{ marginBottom: `var(--space-3)` }}
         />
       </Link>
@@ -97,7 +97,7 @@ const Header = () => (
           width={150}
           quality={95}
           formats={["auto", "webp", "avif"]}
-          alt=""
+          alt="Projekte"
           style={{ marginBottom: `var(--space-3)` }}
         />
       </Link>
