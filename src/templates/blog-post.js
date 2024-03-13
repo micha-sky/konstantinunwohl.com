@@ -13,8 +13,8 @@ const BlogPostTemplate = ({
 
   return (
     <React.Fragment>
-      <div className={styles.textCenter}>
-        <Layout location={location} title={siteTitle}>
+      <Layout location={location} title={siteTitle}>
+        <div className={styles.textCenter}>
           <article
             className="blog-post"
             itemScope
@@ -57,8 +57,8 @@ const BlogPostTemplate = ({
               </li>
             </ul>
           </nav>
-        </Layout>
-      </div>
+        </div>
+      </Layout>
     </React.Fragment>
   )
 }

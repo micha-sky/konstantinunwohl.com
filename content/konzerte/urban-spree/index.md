@@ -3,6 +3,7 @@ title: Urban Spree, Berlin, May 30
 date: "2015-05-01T22:12:03.284Z"
 description: "Urban Spree, Berlin, May 30"
 type: "konzert"
+tags: [ "summer", "news"]
 ---
 # Urban Spree, Berlin, May 30
 
