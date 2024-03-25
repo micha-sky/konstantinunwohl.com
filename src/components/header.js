@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
-  <header className="flex flex-col items-center justify-between fixed w-full mx-auto p-4">
+  <header className="flex flex-col items-center justify-between fixed w-full mx-auto p-4 z-10">
     <div className="flex justify-center">
       <Link to="/" className="text-sm no-underline mb-3">
         <StaticImage

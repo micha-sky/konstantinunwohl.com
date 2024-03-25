@@ -49,6 +49,18 @@
   margin-top: 350px;
 }
 
+.coverPlace {
+  display: flex;
+  text-align: left;
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+.tracklist {
+  text-align: left;
+  margin-top: 350px;
+}
+
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
