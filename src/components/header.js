@@ -4,18 +4,20 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
   <header className="flex flex-col items-center justify-between fixed w-full mx-auto p-4">
-    <Link to="/" className="text-sm no-underline mb-3">
-      <StaticImage
-        src="../images/logo.png"
-        loading="lazy"
-        width={250}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-      />
-    </Link>
+    <div className="flex justify-center">
+      <Link to="/" className="text-sm no-underline mb-3">
+        <StaticImage
+          src="../images/logo.png"
+          loading="lazy"
+          width={250}
+          quality={95}
+          formats={["auto", "webp", "avif"]}
+          alt=""
+        />
+      </Link>
+    </div>
 
-    <div className="links-container flex flex-row justify-between w-8/12">
+    <div className="flex justify-center">
       <Link
         to="https://konstantinunwohl.bandcamp.com/"
         className="text-sm no-underline mb-3"
@@ -29,7 +31,6 @@ const Header = () => (
           alt=""
         />
       </Link>
-
       <Link
         to="/lyrics"
         style={{
@@ -48,7 +49,9 @@ const Header = () => (
           style={{ marginBottom: `var(--space-3)` }}
         />
       </Link>
+    </div>
 
+    <div className="links-container  justify-between ">
       <Link
         to="/kontakt"
         style={{
@@ -59,7 +62,7 @@ const Header = () => (
         <StaticImage
           src="../images/kontakt.png"
           loading="lazy"
-          width={150}
+          width={220}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="Kontakt"
