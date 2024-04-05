@@ -18,6 +18,24 @@ import * as styles from "../components/index.module.css"
 
 const Kontakt = () => (
   <Layout>
+        <div className={styles.textCenter}>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="hidden" name="subject" value="Message frm a fan" />
+    <p>
+      <label>Your Name: <input type="text" name="name" className={styles.formInput} /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" className={styles.formInput} /></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message" className={styles.formInput}></textarea></label>
+    </p>
+    <p>
+      <button type="submit" className={styles.formButton}>Send</button>
+    </p>
+  </form>
+</div>
     <div className={styles.textCenter}>
       <h1>Contact me </h1>
 
@@ -85,24 +103,7 @@ const Kontakt = () => (
         <FontAwesomeIcon icon={faYoutube} /> Youtube
       </a>
     </div>
-    <div className={styles.textCenter}>
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="hidden" name="subject" value="Message frm a fan" />
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-</div>
+
   </Layout>
 )
 
