@@ -17,7 +17,7 @@ const Header = () => (
       </Link>
     </div>
 
-    <div className="flex justify-center">
+    <div className="flex justify-center space-x-6">
       <Link
         to="https://konstantinunwohl.bandcamp.com/"
         className="text-sm no-underline mb-3"
@@ -51,7 +51,7 @@ const Header = () => (
       </Link>
     </div>
 
-    <div className="links-container  justify-between ">
+    <div className="flex space-x-6 links-container justify-between">
       <Link
         to="/kontakt"
         style={{
