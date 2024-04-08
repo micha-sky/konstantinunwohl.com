@@ -47,6 +47,9 @@
 .textCenter {
   text-align: center;
   margin-top: 350px;
+  @screen lg {
+    margin-top: 450px;
+  }
 }
 
 .coverPlace {

@@ -146,7 +146,7 @@ const Lyrics = ({ data }) => {
           <br />
         </div>
         <div id="anleitung" className="text-container space-x-0 ml-14">
-          <div className="text-2xl bold">Anleitung zum Versagen </div>
+          <div className="text-2xl bold">Anleitung zum Versagen</div>
           Du musst langsam gehen beim schleppen <br />
           denn du musst hören können
           <br />

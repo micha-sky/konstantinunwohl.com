@@ -36,10 +36,7 @@ const Header = () => {
       </div>
 
       <div className="flex justify-center space-x-6">
-        <Link
-          to="https://konstantinunwohl.bandcamp.com/"
-          className="text-sm no-underline mb-3"
-        >
+        <Link to="/musik" className="text-sm no-underline mb-3">
           <StaticImage
             src="../images/musik.png"
             loading="lazy"
