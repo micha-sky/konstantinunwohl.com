@@ -17,6 +17,9 @@ import * as styles from "../components/index.module.css"
 const Kontakt = () => (
   <Layout>
     <div className={styles.textCenter}>
+      <div className="text-2xl bold">
+        Ich hass es, wenn man mich kontaktiert
+      </div>
       <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="subject" value="Message from a fan" />
