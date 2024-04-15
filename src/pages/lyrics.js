@@ -46,6 +46,12 @@ const Lyrics = ({ data }) => {
               <li>
                 <Link to="#wagen">Hoch auf dem gelben Wagen</Link>
               </li>
+              <li>
+                <Link to="#ozean">Ozean der Zeit</Link>
+              </li>
+              <li>
+                <Link to="#sein">Sein ist Nein</Link>
+              </li>
             </ol>
           </div>
         </div>
@@ -595,6 +601,114 @@ const Lyrics = ({ data }) => {
             davon die Sonne w&auml;rmt die Haut, wenn ich entschlafe niemand,
             der von gro&szlig; und wichtig spricht meint, dass es das wirklich
             gibt so f&uuml;rchte nicht den Tod, sondern die Sprache
+          </p>
+        </div>
+        <div id="ozean" className="text-container space-x-0 ml-14 mb-8">
+          <div className="text-2xl bold">Ozean der Zeit</div>
+          <p>
+            In Treppenh&auml;usern, wo man nicht so gern die Stiege steigt da
+            geh ich lieber allein denn wenn der Faden wieder einmal rei&szlig;t
+            dann gibt es einen R&uuml;ckfall
+          </p>
+
+          <p>
+            mit Liebeskummer darf man nicht allein aufs Feld zum hacken, nicht
+            allein denn man vergisst leicht, dass es regnen kann wenn die
+            Maschine nicht mehr l&auml;uft bist du allein
+          </p>
+
+          <p>
+            immer wenn ich Durst hab, dann geh ich in den Ozean der Zeit wo alle
+            N&auml;chte Ewigkeit erlangen ich z&ouml;ger nicht, versprech die
+            Wahrheit aber l&uuml;g wie ichs vermag und dann geh ich in die
+            Arbeit jeden Tag immer wenn ich Durst hab
+          </p>
+
+          <p>
+            wer viel vergisst, und nichts mehr wei&szlig; ja der stirbt als
+            junger Mensch da wo die Liebenden sich vieles erz&auml;hlen sind
+            andere l&auml;ngst gefallen auf diesen St&uuml;hlen stirbt man
+            langsam ich tausche Kleidung gegen Wein
+          </p>
+
+          <p>
+            morgens bin ich trotzig, aber abends werd ich schwach mein Wort
+            gegen keines nicht mal mein eignes wenn nicht mal mehr die Hunde auf
+            den Stra&szlig;en sind, dann entfremdet sich die Welt denn sie wird
+            wieder wie sie selbst
+          </p>
+
+          <p>
+            {" "}
+            die Busfahrer die wecken mich dabei bin ich lang nicht da, lange
+            nicht da ich hab die Tage viel geschlafen, weil der schlaf so nah am
+            Tod ist, viel zu nah
+          </p>
+
+          <p>
+            und irgendwann passierst auch du mal eines dieser Fenster, Hand in
+            Hand ich werde drinnen sitzen, leicht gebeugt und habe dich bestimmt
+            nicht erkannt
+          </p>
+
+          <p>
+            Immer wenn ich Durst hab, dann geh ich in den Ozean der Zeit wo alle
+            N&auml;chte Ewigkeit erlangen ich z&ouml;ger nicht, versprech die
+            Wahrheit aber l&uuml;g wie ichs vermag und dann geh ich in die
+            Arbeit jeden Tag immer wenn ich Durst hab
+          </p>
+        </div>
+        <div id="sein" className="text-container space-x-0 ml-14 mb-8">
+          <div className="text-2xl bold">Sein ist Nein</div>
+          <p>
+            Die Kinder spielen im Park mit den angetrunknen Tanten und alle
+            zusammen freuen sich sehr &uuml;ber nette Bekannte so viele nette
+            Bekannte
+          </p>
+
+          <p>
+            fast alle meine Freunde sind traurig frag nicht nach selbst auf den
+            Terrassen dieser Stadt hat man sich selbst schon lange satt schon so
+            lange sat
+          </p>
+
+          <p>
+            oh sie zieh sich sch&ouml;nes an ich qu&auml;l mich nur hinein denk
+            Abends schon im Bett daran wie ich morgen vergessen kann wie ich
+            morgen vergessen kann
+          </p>
+
+          <p>
+            Es gibt Geldkoffer, Windowshopper, viele Kreditkarten alle kennen es
+            schon aus, verschiednen Formaten aus verschiednen Formaten ich kenn
+            nur Sein ist Nein Nein Nein Nein ich kenn nur Sein ist Nein Nein
+            Nein Nein Ich kenn nur Sein ist
+          </p>
+
+          <p>
+            Ekstase f&uuml;r den einen ist dem anderen ein Wagnis nicht gleich
+            Geige spielt wenn sie dann mal nicht da ist wenn sie dann mal nicht
+            da ist
+          </p>
+
+          <p>
+            man muss solange nicht k&ouml;nnen bis man nicht mehr mag verloren
+            auf der Schwelle zum Gleichgewicht des Tags zum Gleichgewicht
+          </p>
+
+          <p>
+            oh wohin kann man entfliehen wenn der Wahnsinn dich verl&auml;sst
+            ich glaub es ist ok, nerv&ouml;s zu werden jetzt nerv&ouml;s zu sein
+            jetzt nerv&ouml;s zu sein da hilft nur Sein ist Nein
+          </p>
+
+          <p>
+            Die H&auml;user der Vergangenen bleiben lange genug stehen
+            Ged&auml;chtnis und Familien die h&ouml;rt man hier verwesen du, dem
+            nichts mehr dazu einf&auml;llt dir, dem alles anders wird wenn
+            Ungl&uuml;ck, dann Routine lang gesucht und kompensiert sage Ja mein
+            Nein sage Sein ist Nein sage Ja mein Nein sage Sein ist Nein Nein
+            Nein Nein
           </p>
         </div>
       </div>
