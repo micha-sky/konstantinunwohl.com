@@ -1,11 +1,9 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faInstagram,
   faBandcamp,
   faFacebook,
-  faTwitter,
   faYoutube,
   faSpotify,
   faSoundcloud,
@@ -19,14 +17,44 @@ import * as styles from "../components/index.module.css"
 const Kontakt = () => (
   <Layout>
     <div className={styles.textCenter}>
-      <h1>Contact me </h1>
-
+      <div className="text-2xl bold">
+        Ich hass es, wenn man mich kontaktiert
+      </div>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="subject" value="Message from a fan" />
+        <p>
+          <label>
+            Your Name:{" "}
+            <input type="text" name="name" className={styles.formInput} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email:{" "}
+            <input type="email" name="email" className={styles.formInput} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message:{" "}
+            <textarea name="message" className={styles.formInput}></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit" className={styles.formButton}>
+            Send
+          </button>
+        </p>
+      </form>
+    </div>
+    <div className="flex flex-wrap text-2xl space-x-6 space-y-2 p-2">
       <a
         href="https://www.instagram.com/konstantinunwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faInstagram} /> Instagram
+        <FontAwesomeIcon icon={faInstagram} className="fa-1x" /> Instagram
       </a>
       <a
         href="https://bandcamp.com/konstantinunwohl"
@@ -42,13 +70,7 @@ const Kontakt = () => (
       >
         <FontAwesomeIcon icon={faFacebook} /> Facebook
       </a>
-      <a
-        href="https://twitter.com/konstantinunwohl"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faTwitter} /> Twitter
-      </a>
+
       <a
         href="https://www.youtube.com/your_username"
         target="_blank"
@@ -85,21 +107,6 @@ const Kontakt = () => (
         <FontAwesomeIcon icon={faYoutube} /> Youtube
       </a>
     </div>
-    <form name="contact" netlify>
-      <p>
-        <label>
-          Name <input type="text" name="name" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Email <input type="email" name="email" />
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
   </Layout>
 )
 
