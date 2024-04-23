@@ -1,7 +1,7 @@
 :root {
   --border-radius: 4px;
   --color-text: #333;
-  --color-primary: #7026b9;
+  --color-primary: #000000;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
   --font-sans:  "ErikasBuero", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -143,7 +143,7 @@ pre {
   border-radius: var(--border-radius);
   overflow: auto;
   word-wrap: normal;
-  padding: var(--space-4);
+  padding: var(--space-1);
 }
 b,
 strong,
