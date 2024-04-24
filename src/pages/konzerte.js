@@ -13,7 +13,7 @@ const Konzerte = ({ data }) => {
   return (
     <Layout>
       <div className={styles.textCenter}>
-        <h1>Aktuelle konzerte here</h1>
+        <h1>Aktuelle konzerte</h1>
         {konzerte.map(konzert => (
           <div key={konzert.id}>
             <h2>

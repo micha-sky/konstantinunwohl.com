@@ -44,12 +44,11 @@ const Header = () => {
         >
           <StaticImage
             src="../images/lyrics.png"
-            className="w-10 sm:w-28 md:w-36 lg:w-48"
+            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
             loading="lazy"
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Lyrics"
-            style={{ marginBottom: `var(--space-3)` }}
           />
         </Link>
 
@@ -67,7 +66,6 @@ const Header = () => {
             formats={["auto", "webp", "avif"]}
             alt="Kontakt"
             className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
-            style={{ marginBottom: `var(--space-3)` }}
           />
         </Link>
 
@@ -84,8 +82,7 @@ const Header = () => {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Konzerte"
-            className="w-10 sm:w-28 md:w-36 lg:w-48"
-            style={{ marginBottom: `var(--space-3)` }}
+            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
           />
         </Link>
       </div>
