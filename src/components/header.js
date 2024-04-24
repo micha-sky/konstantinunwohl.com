@@ -6,7 +6,7 @@ import { useEffect } from "react"
 const Header = () => {
   const [hideHeader, setHideHeader] = React.useState(false)
 
-  const checkScroll = () => {
+  /*const checkScroll = () => {
     setHideHeader(window.pageYOffset > 100)
   }
 
@@ -15,10 +15,10 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", checkScroll)
     }
-  }, [])
+  }, [])*/
   return (
     <header
-      className={`flex flex-col items-center justify-between fixed w-full mx-auto p-4 z-10 ${
+      className={`flex flex-col items-center justify-between  w-full mx-auto p-4 z-10 ${
         hideHeader ? "hidden" : ""
       }`}
     >

@@ -35,10 +35,7 @@ export default Konzerte
 
 export const pageQuery = graphql`
   query AllKonzerte {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/konzerte/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/konzerte/" } }) {
       nodes {
         id
         frontmatter {

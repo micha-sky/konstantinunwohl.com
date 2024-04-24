@@ -8,8 +8,6 @@ import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Lyrics = ({ data }) => {
-  const lyrics = data.allMarkdownRemark.nodes
-
   return (
     <Layout>
       <div className="flex flex-col main-container">
@@ -18,7 +16,7 @@ const Lyrics = ({ data }) => {
             <StaticImage
               src="../images/cover.jpeg"
               loading="lazy"
-              width={250}
+              className="w-10 sm:w-28 md:w-36 lg:w-48 2xl:w-50"
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Lyrics"
@@ -27,7 +25,7 @@ const Lyrics = ({ data }) => {
           </div>
 
           <div className={styles.tracklist}>
-            <ol className="list-decimal list-inside">
+            <ul className="list-disc list-inside">
               <li>
                 <Link to="#ichhasse">Ich hass es, wenn man Spaß hat</Link>
               </li>
@@ -52,7 +50,7 @@ const Lyrics = ({ data }) => {
               <li>
                 <Link to="#sein">Sein ist Nein</Link>
               </li>
-            </ol>
+            </ul>
           </div>
         </div>
         <div id="ichhasse" className="text-container space-x-0 ml-14 mb-8">
