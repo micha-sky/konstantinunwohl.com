@@ -6,8 +6,34 @@ import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useEffect, useState } from "react"
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
 
 const Lyrics = ({ data }) => {
+  const [isVisible, setIsVisible] = useState(false)
+
+  // Show button when page is scrolled down
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 150) {
+      setIsVisible(true)
+    } else {
+      setIsVisible(false)
+    }
+  }
+
+  // Scroll to top smooth
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility)
+    return () => window.removeEventListener("scroll", toggleVisibility)
+  }, [])
   return (
     <Layout>
       <div className="flex flex-col main-container">
@@ -710,6 +736,18 @@ const Lyrics = ({ data }) => {
           </p>
         </div>
       </div>
+      {isVisible && (
+        <div
+          onClick={scrollToTop}
+          onKeyDown={scrollToTop}
+          role="button"
+          tabIndex={0}
+          className="fixed bottom-1/2 right-5 cursor-pointer"
+        >
+          go up
+          <FontAwesomeIcon icon={faArrowUp} />
+        </div>
+      )}
     </Layout>
   )
 }
