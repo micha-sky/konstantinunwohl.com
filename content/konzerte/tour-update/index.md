@@ -1,5 +1,5 @@
 ---
-title: ""Tour update"
+title: Tour update
 date: "2015-05-04T22:12:03.284Z"
 description: "Tour update"
 type: "blog"
