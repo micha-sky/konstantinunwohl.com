@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -15,7 +14,7 @@ const Lyrics = ({ data }) => {
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {
-    if (window.pageYOffset > 150) {
+    if (window.pageYOffset > 350) {
       setIsVisible(true)
     } else {
       setIsVisible(false)
@@ -37,12 +36,12 @@ const Lyrics = ({ data }) => {
   return (
     <Layout>
       <div className="flex flex-col main-container">
-        <div className="flex flex-row space-x-0 lyrics-container">
-          <div className={styles.coverPlace}>
+        <div className="flex sm:flex-row xs:flex-row flex-col space-x-0 lyrics-container">
+          <div className="flex text-left mt-1 ml-12">
             <StaticImage
               src="../images/cover.jpeg"
               loading="lazy"
-              className="w-10 sm:w-28 md:w-36 lg:w-48 2xl:w-50"
+              className="w-48 sm:w-48 md:w-56 lg:w-64 2xl:w-72"
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Lyrics"
@@ -50,7 +49,7 @@ const Lyrics = ({ data }) => {
             />
           </div>
 
-          <div className={styles.tracklist}>
+          <div className="text-left mt-8">
             <ul className="list-disc list-inside">
               <li>
                 <Link to="#ichhasse">Ich hass es, wenn man Spaß hat</Link>
@@ -742,7 +741,7 @@ const Lyrics = ({ data }) => {
           onKeyDown={scrollToTop}
           role="button"
           tabIndex={0}
-          className="fixed bottom-1/2 right-5 cursor-pointer"
+          className="fixed bottom-1/2 left-5 cursor-pointer text-gray-500"
         >
           go up
           <FontAwesomeIcon icon={faArrowUp} />

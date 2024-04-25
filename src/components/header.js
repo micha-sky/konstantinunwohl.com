@@ -3,14 +3,8 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
-  const [hideHeader, setHideHeader] = React.useState(false)
-
   return (
-    <header
-      className={`flex flex-col items-center justify-between  w-full mx-auto p-4 z-10 ${
-        hideHeader ? "hidden" : ""
-      }`}
-    >
+    <header className={`flex flex-col   w-full mx-auto p-4 z-10 `}>
       <div className="flex justify-center">
         <Link to="/" className="text-sm no-underline mb-3">
           <StaticImage
@@ -31,8 +25,8 @@ const Header = () => {
             loading="lazy"
             quality={95}
             formats={["auto", "webp", "avif"]}
-            alt=""
-            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
+            alt="Musik"
+            height={75}
           />
         </Link>
         <Link
@@ -44,11 +38,11 @@ const Header = () => {
         >
           <StaticImage
             src="../images/lyrics.png"
-            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
             loading="lazy"
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Lyrics"
+            height={75}
           />
         </Link>
 
@@ -65,7 +59,7 @@ const Header = () => {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Kontakt"
-            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
+            height={75}
           />
         </Link>
 
@@ -82,7 +76,7 @@ const Header = () => {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Konzerte"
-            className="w-14  sm:w-28 md:w-36 lg:w-48 2xl:w-60"
+            height={75}
           />
         </Link>
       </div>

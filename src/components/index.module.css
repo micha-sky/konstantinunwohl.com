@@ -48,16 +48,6 @@
   }
 }
 
-.coverPlace {
-  display: flex;
-  text-align: left;
-  margin-top: 5px;
-  margin-left: 3rem;
-}
-
-.tracklist {
-  text-align: left;
-}
 
 .intro {
   max-width: none;
