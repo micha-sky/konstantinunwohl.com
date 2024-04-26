@@ -1,7 +1,7 @@
 ---
 title: 08-05 Wien, Rhiz
-date: "2024-05-01T22:12:03.284Z"
-description: "08-05-wien-rhiz"
+date: "2024-05-08T22:12:03.284Z"
+description: "08-05 Wien, Rhiz"
 type: "konzert"
 tags: [ "summer", "news"]
 ---
