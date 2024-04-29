@@ -50,7 +50,7 @@ const Lyrics = ({ data }) => {
           </div>
 
           <div className="text-left mt-8">
-            <ul className="list-disc list-inside">
+            <ul className="list-decimal list-inside">
               <li>
                 <Link to="#balance">Balance</Link>
               </li>
