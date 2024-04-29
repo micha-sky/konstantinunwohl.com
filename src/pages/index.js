@@ -12,7 +12,10 @@ const IndexPage = ({ data, location }) => {
   const siteTitle = `Title`
   const posts = useStaticQuery(graphql`
     {
-      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+      allMarkdownRemark(
+        sort: { frontmatter: { date: DESC } }
+        filter: { fileAbsolutePath: { regex: "/blog/" } }
+      ) {
         nodes {
           excerpt
           fields {
