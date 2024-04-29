@@ -16,7 +16,7 @@ import Seo from "../components/seo"
 const Kontakt = () => (
   <Layout>
     <div className="text-center">
-      <div className="text-xl font-bold">
+      <div className="text-xl font-bold hidden">
         Ich hass es, wenn man mich kontaktiert
       </div>
       <form
