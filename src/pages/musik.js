@@ -28,32 +28,21 @@ const Musik = ({ data }) => (
           </p>
         </Link>
         <Link
-          to="https://konstantinunwohl.bandcamp.com/album/ich-gehe"
+          to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
           className="text-sm no-underline mb-3"
         >
           <StaticImage
-            src="../images/musik/ichgehe.jpg"
+            src="../images/musik/wagen.jpg"
             loading="lazy"
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center">Ich gehe</p>
-        </Link>
-        <Link
-          to="https://konstantinunwohl.bandcamp.com/album/ich-ging-vier-mal-spatieren"
-          className="text-sm no-underline mb-3"
-        >
-          <StaticImage
-            src="../images/musik/ginge.jpg"
-            loading="lazy"
-            quality={95}
-            formats={["auto", "webp", "avif"]}
-            alt="Ich ginge vier mal spazieren"
-            className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-          />
-          <p className="text-center">Ich ginge vier mal spazieren</p>
+          <p className="text-center">
+            {" "}
+            Hoch auf dem gelben Wagen (Single Edit){" "}
+          </p>
         </Link>
         <Link
           to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik"
@@ -84,21 +73,32 @@ const Musik = ({ data }) => (
           <p className="text-center"> Ich Würd Lieber Nicht </p>
         </Link>
         <Link
-          to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
+          to="https://konstantinunwohl.bandcamp.com/album/ich-gehe"
           className="text-sm no-underline mb-3"
         >
           <StaticImage
-            src="../images/musik/wagen.jpg"
+            src="../images/musik/ichgehe.jpg"
             loading="lazy"
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center">
-            {" "}
-            Hoch auf dem gelben Wagen (Single Edit){" "}
-          </p>
+          <p className="text-center">Ich gehe</p>
+        </Link>
+        <Link
+          to="https://konstantinunwohl.bandcamp.com/album/ich-ging-vier-mal-spatieren"
+          className="text-sm no-underline mb-3"
+        >
+          <StaticImage
+            src="../images/musik/ginge.jpg"
+            loading="lazy"
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Ich ginge vier mal spazieren"
+            className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+          />
+          <p className="text-center">Ich ginge vier mal spazieren</p>
         </Link>
       </div>
     </div>
