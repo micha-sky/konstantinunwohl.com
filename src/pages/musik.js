@@ -20,12 +20,11 @@ const Musik = ({ data }) => (
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Ich gehe"
-            className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
           />
-          <p className="text-center">
-            {" "}
-            Im Institut für Strömungstechnik Remixed{" "}
-          </p>
+          <div className="text-center mt-4 font-bold">
+            Im Institut für Strömungstechnik Remixed
+          </div>
         </Link>
         <Link
           to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
@@ -39,9 +38,8 @@ const Musik = ({ data }) => (
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center">
-            {" "}
-            Hoch auf dem gelben Wagen (Single Edit){" "}
+          <p className="text-center mt-4 font-bold">
+            Hoch auf dem gelben Wagen (Single Edit)
           </p>
         </Link>
         <Link
@@ -56,7 +54,9 @@ const Musik = ({ data }) => (
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center"> Im Institut für Strömungstechnik </p>
+          <div className="text-center mt-4 font-bold">
+            Im Institut für Strömungstechnik
+          </div>
         </Link>
         <Link
           to="https://konstantinunwohl.bandcamp.com/album/ich-w-rd-lieber-nicht"
@@ -70,7 +70,7 @@ const Musik = ({ data }) => (
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center"> Ich Würd Lieber Nicht </p>
+          <p className="text-center mt-4 font-bold">Ich Würd Lieber Nicht </p>
         </Link>
         <Link
           to="https://konstantinunwohl.bandcamp.com/album/ich-gehe"
@@ -84,7 +84,7 @@ const Musik = ({ data }) => (
             alt="Ich gehe"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center">Ich gehe</p>
+          <div className="text-center mt-4 font-bold">Ich gehe</div>
         </Link>
         <Link
           to="https://konstantinunwohl.bandcamp.com/album/ich-ging-vier-mal-spatieren"
@@ -98,7 +98,9 @@ const Musik = ({ data }) => (
             alt="Ich ginge vier mal spazieren"
             className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
           />
-          <p className="text-center">Ich ginge vier mal spazieren</p>
+          <div className="text-center mt-4 font-bold">
+            Ich ginge vier mal spazieren
+          </div>
         </Link>
       </div>
     </div>
