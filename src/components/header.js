@@ -79,6 +79,39 @@ const Header = () => {
             height={75}
           />
         </Link>
+        <Link
+          to="/videos"
+          style={{
+            fontSize: `var(--font-sm)`,
+            textDecoration: `none`,
+          }}
+        >
+          <StaticImage
+            src="../images/videos.png"
+            loading="lazy"
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Konzerte"
+            height={75}
+          />
+        </Link>
+
+        <Link
+          to="https://aufnahmeundwiedergabe.bigcartel.com/category/aufnahme-wiedergabe"
+          style={{
+            fontSize: `var(--font-sm)`,
+            textDecoration: `none`,
+          }}
+        >
+          <StaticImage
+            src="../images/shop.png"
+            loading="lazy"
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="Shop"
+            height={75}
+          />
+        </Link>
       </div>
     </header>
   )

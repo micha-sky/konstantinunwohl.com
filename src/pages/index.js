@@ -6,8 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
 const IndexPage = ({ data, location }) => {
   const siteTitle = `Title`
   const posts = useStaticQuery(graphql`
