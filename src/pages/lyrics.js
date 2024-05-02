@@ -50,13 +50,7 @@ const Lyrics = ({ data }) => {
           </div>
 
           <div className="text-left mt-8">
-            <ul className="list-disc list-inside">
-              <li>
-                <Link to="#ichhasse">Ich hass es, wenn man Spaß hat</Link>
-              </li>
-              <li>
-                <Link to="#anleitung">Anleitung zum Versagen</Link>
-              </li>
+            <ul className="list-decimal list-inside">
               <li>
                 <Link to="#balance">Balance</Link>
               </li>
@@ -64,16 +58,23 @@ const Lyrics = ({ data }) => {
                 <Link to="#rekrut">Eine Träne kein Rekrut</Link>
               </li>
               <li>
-                <Link to="#fenster">Fenster zur Welt</Link>
+                <Link to="#wagen">Hoch auf dem gelben Wagen</Link>
               </li>
               <li>
-                <Link to="#wagen">Hoch auf dem gelben Wagen</Link>
+                <Link to="#ichhasse">Ich hass es, wenn man Spaß hat</Link>
               </li>
               <li>
                 <Link to="#ozean">Ozean der Zeit</Link>
               </li>
               <li>
                 <Link to="#sein">Sein ist Nein</Link>
+              </li>
+              <li>
+                <Link to="#anleitung">Anleitung zum Versagen</Link>
+              </li>
+
+              <li>
+                <Link to="#fenster">Fenster zur Welt</Link>
               </li>
             </ul>
           </div>

@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
@@ -14,16 +13,12 @@ const BlogPostTemplate = ({
   return (
     <React.Fragment>
       <Layout location={location} title={siteTitle}>
-        <div className={styles.textCenter}>
+        <div className="text-center">
           <article
             className="blog-post"
             itemScope
-            itemType="http://schema.org/Article"
+            itemType="https://schema.org/Article"
           >
-            <header>
-              <h1 itemProp="headline">{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
-            </header>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
@@ -32,15 +27,7 @@ const BlogPostTemplate = ({
             <footer></footer>
           </article>
           <nav className="blog-post-nav">
-            <ul
-              style={{
-                display: `flex`,
-                flexWrap: `wrap`,
-                justifyContent: `space-between`,
-                listStyle: `none`,
-                padding: 0,
-              }}
-            >
+            <ul className="flex flex-wrap justify-between list-none p-0">
               <li>
                 {previous && (
                   <Link to={previous.fields.slug} rel="prev">

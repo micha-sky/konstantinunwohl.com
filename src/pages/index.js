@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link, useStaticQuery } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -13,7 +12,10 @@ const IndexPage = ({ data, location }) => {
   const siteTitle = `Title`
   const posts = useStaticQuery(graphql`
     {
-      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+      allMarkdownRemark(
+        sort: { frontmatter: { date: DESC } }
+        filter: { fileAbsolutePath: { regex: "/blog/" } }
+      ) {
         nodes {
           excerpt
           fields {
@@ -41,7 +43,7 @@ const IndexPage = ({ data, location }) => {
                 <article
                   className="post-list-item"
                   itemScope
-                  itemType="http://schema.org/Article"
+                  itemType="https://schema.org/Article"
                 >
                   <header>
                     <h2>
