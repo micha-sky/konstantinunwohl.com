@@ -13,7 +13,7 @@ const Konzerte = ({ data }) => {
   return (
     <Layout>
       <div className={styles.textCenter}>
-        <h1>Aktuelle konzerte here</h1>
+        <h1>Aktuelle konzerte</h1>
         {konzerte.map(konzert => (
           <div key={konzert.id}>
             <h2>
@@ -35,10 +35,7 @@ export default Konzerte
 
 export const pageQuery = graphql`
   query AllKonzerte {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/konzerte/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/konzerte/" } }) {
       nodes {
         id
         frontmatter {

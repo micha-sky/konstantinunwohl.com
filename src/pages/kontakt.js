@@ -12,42 +12,61 @@ import {
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
 const Kontakt = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <div className="text-2xl bold">
+    <div className="text-center">
+      <div className="text-xl font-bold">
         Ich hass es, wenn man mich kontaktiert
       </div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        className="flex flex-col items-center justify-center"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="subject" value="Message from a fan" />
-        <p>
-          <label>
-            Your Name:{" "}
-            <input type="text" name="name" className={styles.formInput} />
+        <div className="mb-4 w-3/4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Name:
+            <input
+              type="text"
+              name="name"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            />
           </label>
-        </p>
-        <p>
-          <label>
-            Your Email:{" "}
-            <input type="email" name="email" className={styles.formInput} />
+        </div>
+        <div className="mb-4 w-3/4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Email:
+            <input
+              type="email"
+              name="email"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            />
           </label>
-        </p>
-        <p>
-          <label>
-            Message:{" "}
-            <textarea name="message" className={styles.formInput}></textarea>
+        </div>
+        <div className="mb-4 w-3/4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Message:
+            <textarea
+              name="message"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            ></textarea>
           </label>
-        </p>
-        <p>
-          <button type="submit" className={styles.formButton}>
+        </div>
+        <div className="mb-4">
+          <button
+            type="submit"
+            className="bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          >
             Send
           </button>
-        </p>
+        </div>
       </form>
     </div>
+
     <div className="flex flex-wrap text-2xl space-x-6 space-y-2 p-2">
       <a
         href="https://www.instagram.com/konstantinunwohl"

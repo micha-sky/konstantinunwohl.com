@@ -1,6 +1,5 @@
 .list {
   display: grid;
-  margin: 0;
   /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
   --w: 280px;
   --n: 2;
@@ -9,8 +8,7 @@
     auto-fit,
     minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
   );
-  margin-bottom: var(--size-gap);
-  margin-top: var(--size-gap);
+  margin: var(--size-gap) 0;
 }
 
 .listItem {
@@ -46,23 +44,10 @@
 
 .textCenter {
   text-align: center;
-  margin-top: 350px;
   @screen lg {
-    margin-top: 450px;
   }
 }
 
-.coverPlace {
-  display: flex;
-  text-align: left;
-  margin-top: 350px;
-  margin-left: 3rem;
-}
-
-.tracklist {
-  text-align: left;
-  margin-top: 350px;
-}
 
 .intro {
   max-width: none;
