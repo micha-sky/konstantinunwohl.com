@@ -15,7 +15,7 @@ import Seo from "../components/seo"
 
 const Kontakt = () => (
   <Layout>
-    <div className="text-center">
+    <div className="text-left">
       <div className="text-xl font-bold hidden">
         Ich hass es, wenn man mich kontaktiert
       </div>
@@ -27,7 +27,7 @@ const Kontakt = () => (
       >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="subject" value="Message from a fan" />
-        <div className="mb-4 w-3/4">
+        <div className="mb-4 w-7/12">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Name:
             <input
@@ -37,7 +37,7 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4 w-3/4">
+        <div className="mb-4  w-7/12">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Email:
             <input
@@ -47,7 +47,7 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4 w-3/4">
+        <div className="mb-4  w-7/12">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Message:
             <textarea
@@ -67,27 +67,27 @@ const Kontakt = () => (
       </form>
     </div>
 
-    <div className="flex flex-wrap text-2xl space-x-6 space-y-2 p-2">
+    <div className="flex flex-wrap text-3xl justify-center items-center  mt-4 space-x-6 space-y-2 p-2">
       <a
         href="https://www.instagram.com/konstantinunwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faInstagram} className="fa-1x" /> Instagram
+        <FontAwesomeIcon icon={faInstagram} />
       </a>
       <a
         href="https://bandcamp.com/konstantinunwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faBandcamp} /> Bandcamp
+        <FontAwesomeIcon icon={faBandcamp} />
       </a>
       <a
         href="https://www.facebook.com/konstantinunwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faFacebook} /> Facebook
+        <FontAwesomeIcon icon={faFacebook} />
       </a>
 
       <a
@@ -95,35 +95,35 @@ const Kontakt = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faYoutube} /> Youtube
+        <FontAwesomeIcon icon={faYoutube} />
       </a>
       <a
         href="https://open.spotify.com/artist/1paiVvuz7pRxsb3tTkJOSd"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faSpotify} /> Spotify
+        <FontAwesomeIcon icon={faSpotify} />
       </a>
       <a
         href="https://soundcloud.com/unwohl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faSoundcloud} /> Soundcloud
+        <FontAwesomeIcon icon={faSoundcloud} />
       </a>
       <a
         href="https://music.apple.com/de/artist/konstantin-unwohl/1539275591?l=en-GB"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faApple} /> Apple Music
+        <FontAwesomeIcon icon={faApple} />
       </a>
       <a
         href={"https://www.youtube.com/channel/UCZCl8tIfSnmEmZxS8Co7NeA"}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faYoutube} /> Youtube
+        <FontAwesomeIcon icon={faYoutube} />
       </a>
     </div>
   </Layout>
