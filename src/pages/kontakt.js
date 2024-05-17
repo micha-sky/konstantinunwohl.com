@@ -27,7 +27,7 @@ const Kontakt = () => (
       >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="subject" value="Message from a fan" />
-        <div className="mb-4 w-7/12">
+        <div className="mb-4 w-3/4">
           <label className="block text-gray-700 text-sm mb-2">
             Name:
             <input
@@ -37,7 +37,7 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4  w-7/12">
+        <div className="mb-4  w-3/4">
           <label className="block text-gray-700 text-sm mb-2">
             Email:
             <input
@@ -47,7 +47,7 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4  w-7/12">
+        <div className="mb-4  w-3/4">
           <label className="block text-gray-700 text-sm mb-2">
             Message:
             <textarea

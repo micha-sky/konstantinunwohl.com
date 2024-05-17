@@ -25,7 +25,6 @@ module.exports = {
         name: `blog`,
       },
     },
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {

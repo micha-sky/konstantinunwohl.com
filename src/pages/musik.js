@@ -9,7 +9,6 @@ import * as styles from "../components/index.module.css"
 
 const Musik = ({ data }) => {
   const theme = React.useContext(ThemeContext)
-  console.log(theme)
   return (
     <div data-theme={theme}>
       <Layout>
