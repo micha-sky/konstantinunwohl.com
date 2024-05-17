@@ -9,6 +9,7 @@ const Videos = () => (
   <Layout>
     <div className={styles.textCenter}>
       <div className="flex flex-col py-4 space-y-6 text-center">
+        <YouTubeVideo videoId="64fxxIsMMLg" />
         <YouTubeVideo videoId="m3tHv4_zcV8" />
         <YouTubeVideo videoId="rscYO7mpwEo" />
         <YouTubeVideo videoId="9urgMM41E80" />
