@@ -8,10 +8,10 @@
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-mono: "ErikasBuero", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-  --font-lg: 18px;
-  --font-md: 16px;
-  --font-sm: 14px;
-  --font-sx: 12px;
+  --font-lg: 20px;
+  --font-md: 18px;
+  --font-sm: 16px;
+  --font-sx: 14px;
   --line-height-loose: 1.75;
   --line-height-normal: 1.5;
   --line-height-dense: 1.1;
@@ -24,6 +24,13 @@
   --size-content: 54rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
+
+  --color-background: white;
+}
+
+[data-theme="dark"] {
+  --color-background: black;
+  --color-text: white;
 }
 html {
   -webkit-text-size-adjust: 100%;
