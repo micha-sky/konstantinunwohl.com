@@ -16,7 +16,7 @@ import Seo from "../components/seo"
 const Kontakt = () => (
   <Layout>
     <div className="text-left">
-      <div className="text-xl font-bold hidden">
+      <div className="text-xl hidden">
         Ich hass es, wenn man mich kontaktiert
       </div>
       <form
@@ -27,8 +27,8 @@ const Kontakt = () => (
       >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="subject" value="Message from a fan" />
-        <div className="mb-4 w-7/12">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+        <div className="mb-4 w-3/4">
+          <label className="block text-gray-700 text-sm mb-2">
             Name:
             <input
               type="text"
@@ -37,8 +37,8 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4  w-7/12">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+        <div className="mb-4  w-3/4">
+          <label className="block text-gray-700 text-sm mb-2">
             Email:
             <input
               type="email"
@@ -47,8 +47,8 @@ const Kontakt = () => (
             />
           </label>
         </div>
-        <div className="mb-4  w-7/12">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+        <div className="mb-4  w-3/4">
+          <label className="block text-gray-700 text-sm mb-2">
             Message:
             <textarea
               name="message"
@@ -59,7 +59,7 @@ const Kontakt = () => (
         <div className="mb-4">
           <button
             type="submit"
-            className="bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-gray-700 hover:bg-gray-500 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Send
           </button>
