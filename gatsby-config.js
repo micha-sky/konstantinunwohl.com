@@ -12,7 +12,7 @@ module.exports = {
     title: `Konstantin Unwohl`,
     description: `Konstantin Unwohl is a musician and artist based in Hamburg.`,
     author: `@michalsky`,
-    siteUrl: `https://konstantinunwohl.com`,
+    siteUrl: `https://unwohl.com`,
   },
   plugins: [
     "gatsby-plugin-postcss",
