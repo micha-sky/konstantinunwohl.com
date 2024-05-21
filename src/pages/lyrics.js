@@ -444,68 +444,67 @@ const Lyrics = ({ data }) => {
         <div id="rekrut" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Eine Träne kein Rekrut</div>
 
-          <p>
-            Heute ist ein sch&ouml;ner Tag die Sonne scheint sehr unbedarft die
-            Rennr&auml;der der Stadt sammeln Staub
-          </p>
+          <p>Heute ist ein sch&ouml;ner Tag<br />
+die Sonne scheint sehr unbedarft<br />
+die Rennr&auml;der der Stadt sammeln Staub</p>
 
-          <p>
-            du wolltest einkaufen gehen f&uuml;r eine nette Kleinigkeit so oft
-            hast dus versucht aber kamst damit nie weit
-          </p>
+<p>du wolltest einkaufen gehen<br />
+f&uuml;r eine nette Kleinigkeit<br />
+so oft hast dus versucht<br />
+aber kamst damit nie weit</p>
 
-          <p>
-            wirf dich mitten ins Get&uuml;mmel deren Ziele du nicht teilst zieh
-            dir eine kleine M&uuml;tze an dann blendest du dich ein
-          </p>
+<p>wirf dich mitten ins Get&uuml;mmel<br />
+deren Ziele du nicht teilst<br />
+zieh dir eine kleine M&uuml;tze an<br />
+dann blendest du dich ein</p>
 
-          <p>
-            Vergangenheit ist zur Strafe vorbei du musst in Zeiten der
-            Verwirrung nur mit dir im reinen sein
-          </p>
+<p>Vergangenheit ist zur Strafe vorbei<br />
+du musst in Zeiten der Verwirrung nur mit dir im reinen sein</p>
 
-          <p>
-            nur vergiss nicht deine Freunde an der S-Bahn und vergiss nicht
-            deine Freunde in der Bar ja morgen ist ein neuer Tag und es bleibt
-            alles so, wie es war eine Tr&auml;ne kein Rekrut
-          </p>
+<p>nur vergiss nicht deine Freunde an der S-Bahn<br />
+und vergiss nicht deine Freunde in der Bar<br />
+ja morgen ist ein neuer Tag<br />
+und es bleibt alles so, wie es war<br />
+eine Tr&auml;ne kein Rekrut</p>
 
-          <p>
-            Man geht nicht ohne Folgen unter Palmen wenn man nur handelt, nach
-            Bedarf verb&uuml;ndet im Versagen dieselben Kinder, andre Namen man
-            redet von der Liebe, aber spricht dabei von sich vom tiefen Stich im
-            K&ouml;rper, nur den K&ouml;rper sieht man nicht also kn&ouml;pf dir
-            deine Hemden zu und scheitle deine Stirn denn wer wei&szlig; denn
-            heutzutage noch wohin alle seine Blumen f&uuml;hren Ins offene Herz
-            dr&auml;ngt der Himmel und er fragt sich, was er da soll wie jemand,
-            der zu Waffen greift und vergessen hat, was er damit wollt
-          </p>
+<p>Man geht nicht ohne Folgen unter Palmen<br />
+wenn man nur handelt, nach Bedarf<br />
+verb&uuml;ndet im Versagen<br />
+dieselben Kinder, andre Namen<br />
+man redet von der Liebe, aber spricht dabei von sich<br />
+vom tiefen Stich im K&ouml;rper, nur den K&ouml;rper sieht man nicht<br />
+also kn&ouml;pf dir deine Hemden zu<br />
+und scheitle deine Stirn<br />
+denn wer wei&szlig; denn heutzutage noch<br />
+wohin alle seine Blumen f&uuml;hren<br />
+Ins offene Herz dr&auml;ngt der Himmel<br />
+und er fragt sich, was er da soll<br />
+wie jemand, der zu Waffen greift<br />
+und vergessen hat, was er damit wollt</p>
 
-          <p>
-            steh fr&uuml;h auf und gehe auf den Markt versuch doch mal spazieren
-            gehen im Park vertrete dir die Seele, sie wird gr&ouml;&szlig;er als
-            geahnt kratz die Totenkopftapete von der Wand nur vergiss nicht
-            deine Freunde an der S-Bahn und vergiss nicht deine Freunde in der
-            Bar ja morgen ist ein neuer Tag und es bleibt alles so, wie es war
-            eine Tr&auml;ne kein Rekrut
-          </p>
+<p>steh fr&uuml;h auf und gehe auf den Markt<br />
+versuch doch mal spazieren gehen im Park<br />
+vertrete dir die Seele, sie wird gr&ouml;&szlig;er als geahnt<br />
+kratz die Totenkopftapete von der Wand<br />
+nur vergiss nicht deine Freunde an der S-Bahn<br />
+und vergiss nicht deine Freunde in der Bar<br />
+ja morgen ist ein neuer Tag<br />
+und es bleibt alles so, wie es war<br />
+eine Tr&auml;ne kein Rekrut</p>
 
-          <p>
-            Mancher sucht das Leben nur, ums wieder zu vergessen andre kaufen
-            ein, nur um nichts davon zu essen versuch verschiedne Dinge, aber
-            sch&auml;m dich nicht dabei ein lebenswertes Leben ist erst
-            lebenswert von Scham befreit
-          </p>
+<p>Mancher sucht das Leben nur, ums wieder zu vergessen<br />
+andre kaufen ein, nur um nichts davon zu essen<br />
+versuch verschiedne Dinge, aber sch&auml;m dich nicht dabei<br />
+ein lebenswertes Leben ist erst lebenswert von Scham befreit</p>
 
-          <p>
-            gib besser schnell zur&uuml;ck, was du von fr&uuml;her noch
-            besa&szlig;t denn sie wollen alles wieder haben und mit Pech ist
-            nichts mehr da befleck dich nicht mit der Gewinnsucht, interessant
-            ist nur Verlust und wenn du auf den Friedhof gehst, dann sei dir
-            deines Grabs bewusst es gibt viele Gr&uuml;nde, f&uuml;r den Guten,
-            der nur schlechtes tut am anderen Ende der Sintflut eine Tr&auml;ne
-            kein Rekrut
-          </p>
+<p>gib besser schnell zur&uuml;ck, was du von fr&uuml;her noch besa&szlig;t<br />
+denn sie wollen alles wieder haben und mit Pech ist nichts mehr da<br />
+befleck dich nicht mit der Gewinnsucht, interessant ist nur Verlust<br />
+und wenn du auf den Friedhof gehst, dann sei dir deines Grabs bewusst<br />
+es gibt viele Gr&uuml;nde, f&uuml;r den Guten, der nur schlechtes tut<br />
+am anderen Ende der Sintflut<br />
+eine Tr&auml;ne kein Rekrut<br />
+</p>
         </div>
         <div id="fenster" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Fenster zur Welt</div>
