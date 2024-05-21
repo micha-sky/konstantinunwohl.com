@@ -15,7 +15,7 @@ const IndexPage = ({ data, location }) => {
         filter: { fileAbsolutePath: { regex: "/blog/" } }
       ) {
         nodes {
-          excerpt
+          html
           fields {
             slug
           }
@@ -31,8 +31,11 @@ const IndexPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <div className={styles.textCenter}>
-        <ol style={{ listStyle: `none` }}>
+      <div className={styles.textCenter + " flex justify-center"}>
+        <ol
+          style={{ listStyle: `none` }}
+          className="w-full md:w-2/3 lg:w-10/12 px-4"
+        >
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
@@ -52,11 +55,11 @@ const IndexPage = ({ data, location }) => {
                     <small>{post.frontmatter.date}</small>
                   </header>
                   <section>
-                    <p
+                    <div
                       dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.description || post.excerpt,
+                        __html: post.html,
                       }}
-                      itemProp="description"
+                      itemProp="articleBody"
                     />
                   </section>
                 </article>
@@ -69,11 +72,6 @@ const IndexPage = ({ data, location }) => {
   )
 }
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
 export const Head = () => <Seo title="Home" />
 
 export default IndexPage
