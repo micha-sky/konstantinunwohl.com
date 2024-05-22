@@ -269,60 +269,60 @@ const Lyrics = ({ data }) => {
 
    <div id="wagen" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Hoch auf dem gelben Wagen</div>
-          <p>Es weht ein kalter Wind im Neubaugebiet,<br>
-             aber dennoch gehen die Leute auf der Straße<br>
-             mir ist nicht mehr ganz klar, was man hier gewinnt<br>
+          <p>Es weht ein kalter Wind im Neubaugebiet<br />
+             aber dennoch gehen die Leute auf der Straße<br />
+             mir ist nicht mehr ganz klar, was man hier gewinnt<br />
              und die Sirenen singen mir Lieder vom Schlafen</p>
 
-          <p>Man unterhielt sich mit mir vom Balkon aus<br>
-             und ich stand dabei im Garten<br>
-             das Gras war schön und es war frisch gemäht<br>
+          <p>Man unterhielt sich mit mir vom Balkon aus<br />
+             und ich stand dabei im Garten<br />
+             das Gras war schön und es war frisch gemäht<br />
              ich weiß nicht, ob sie mir das übel nahmen</p>
 
-          <p>An Orten, wo nur Stille herrscht, da nimmt man sich in Acht<br>
-             und belästigt besser kein mit seinen Fragen.<br>
-             Wo Gemäßigkeit spazieren geht, da horcht man, wenn gerufen wird<br>
-             so führ ein kleines Buch mit deinen Taten<br>
-             Und am schönsten aller Tage, ja da lauf ich euch davon<br>
-             die Sonne wärmt die Haut, wenn ich entschlafe<br>
-             niemand, der von groß und wichtig spricht<br>
-             meint, dass es das wirklich gibt<br>
+          <p>An Orten, wo nur Stille herrscht, da nimmt man sich in Acht<br />
+             und belästigt besser kein mit seinen Fragen.<br />
+             Wo Gemäßigkeit spazieren geht, da horcht man, wenn gerufen wird<br />
+             so führ ein kleines Buch mit deinen Taten<br />
+             Und am schönsten aller Tage, ja da lauf ich euch davon<br />
+             die Sonne wärmt die Haut, wenn ich entschlafe<br />
+             niemand, der von groß und wichtig sprich<br />
+             meint, dass es das wirklich gibt<br />
              so fürchte nicht den Tod, sondern die Sprache</p>
 
-          <p>Man fährt noch nicht so lang mit mir<br>
-             hoch auf dem gelben Wagen<br>
-             es gibt so viele Dinge<br>
-             die andre schon gesehen haben<br>
-             ich malt mir viele Bilder aus<br>
-             in völlig andren Farben<br>
-             auch dafür gibt es Orte<br>
+          <p>Man fährt noch nicht so lang mit mir<br />
+             hoch auf dem gelben Wagen<br />
+             es gibt so viele Dinge<br />
+             die andre schon gesehen haben<br />
+             ich malt mir viele Bilder aus<br />
+             in völlig andren Farben<br />
+             auch dafür gibt es Orte<br />
              nur was soll man schon erwarten</p>
 
-          <p>Man fährt noch nicht so lang mit mir<br>
-             hoch auf dem gelben Wagen<br>
-             wer will schon jung und weise sein<br>
+          <p>Man fährt noch nicht so lang mit mir<br />
+             hoch auf dem gelben Wagen<br />
+             wer will schon jung und weise sein<br />
              was soll man da schon sagen</p>
 
-          <p>Ich dachte ja auch, man versteht sich<br>
-             aber nun geb ich meinen Anspruch zurück<br>
-             vielleicht wars zu viel, oder zu wenig<br>
+          <p>Ich dachte ja auch, man versteht sich<br />
+             aber nun geb ich meinen Anspruch zurück<br />
+             vielleicht wars zu viel, oder zu wenig<br />
              aber wer Verrückten in die Karten schaut ist selbst verrückt</p>
 
-          <p>Man hätte sich ja so viel zu sagen<br>
-             nur leider sieht man sich so selten<br>
-             jetzt sind die Ziele vergessen und der Wille verfehlt<br>
+          <p>Man hätte sich ja so viel zu sagen<br />
+             nur leider sieht man sich so selten<br />
+             jetzt sind die Ziele vergessen und der Wille verfehlt<br />
              aber man fährt hoch auf dem gelben Wagen</p>
 
-          <p>Und alle Stimmen der Vernunft<br>
-             singen in einem Chor<br>
-             aber warten eigentlich nur auf ihre Pause<br>
-             im Gedachten war es gut und nur im Echten tuts nicht Not<br>
-             hätt ich wissen sollen, als ich noch daran glaubte<br>
-             denn am schönsten aller Tage<br>
-             da lauf ich euch davon<br>
-             die Sonne wärmt die Haut, wenn ich entschlafe<br>
-             niemand, der von groß und wichtig spricht<br>
-             meint, dass es das wirklich gibt<br>
+          <p>Und alle Stimmen der Vernunft<br />
+             singen in einem Chor<br />
+             aber warten eigentlich nur auf ihre Pause<br />
+             im Gedachten war es gut und nur im Echten tuts nicht Not<br />
+             hätt ich wissen sollen, als ich noch daran glaubte<br />
+             denn am schönsten aller Tage<br />
+             da lauf ich euch davon<br />
+             die Sonne wärmt die Haut, wenn ich entschlafe<br />
+             niemand, der von groß und wichtig spricht<br />
+             meint, dass es das wirklich gibt<br />
              so fürchte nicht den Tod, sondern die Sprache</p>
         </div>
         <div id="ichhasse" className="text-container space-x-0 ml-14 mb-8">
@@ -433,129 +433,129 @@ const Lyrics = ({ data }) => {
     
         <div id="ozean" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Ozean der Zeit</div>
-            <p>In Treppenhäusern, wo man nicht so gern die Stiege steigt<br>
-                da geh ich lieber allein<br>
-                denn wenn der Faden wieder einmal reißt<br>
+            <p>In Treppenhäusern, wo man nicht so gern die Stiege steigt<br />
+                da geh ich lieber allein<br />
+                denn wenn der Faden wieder einmal reißt<br />
                 dann gibt es einen Rückfall</p>
 
-             <p>mit Liebeskummer darf man nicht allein aufs Feld zum hacken,<br>
-                nicht allein<br>
-                denn man vergisst leicht, dass es regnen kann<br>
-                wenn die Maschine nicht mehr läuft<br>
+             <p>mit Liebeskummer darf man nicht allein aufs Feld zum hacken,<br />
+                nicht allein<br />
+                denn man vergisst leicht, dass es regnen kann<br />
+                wenn die Maschine nicht mehr läuft<br />
                 bist du allein</p>
 
-             <p>immer wenn ich Durst hab,<br>
-                dann geh ich in den Ozean der Zeit<br>
-                wo alle Nächte Ewigkeit erlangen<br>
-                ich zöger nicht, versprech die Wahrheit<br>
-                aber lüg wie ichs vermag<br>
-                und dann geh ich in die Arbeit jeden Tag<br>
+             <p>immer wenn ich Durst hab,<br />
+                dann geh ich in den Ozean der Zeit<br />
+                wo alle Nächte Ewigkeit erlangen<br />
+                ich zöger nicht, versprech die Wahrheit<br />
+                aber lüg wie ichs vermag<br />
+                und dann geh ich in die Arbeit jeden Tag<br />
                 immer wenn ich Durst hab</p>
 
-             <p>wer viel vergisst,<br>
-                und nichts mehr weiß<br>
-                ja der stirbt<br>
-                als junger Mensch<br>
-                da wo die Liebenden sich vieles erzählen<br>
-                sind andere längst gefallen<br>
-                auf diesen Stühlen stirbt man langsam<br>
+             <p>wer viel vergisst,<br />
+                und nichts mehr weiß<br />
+                ja der stirbt<br />
+                als junger Mensch<br />
+                da wo die Liebenden sich vieles erzählen<br />
+                sind andere längst gefallen<br />
+                auf diesen Stühlen stirbt man langsam<br />
                 ich tausche Kleidung gegen Wein</p>
 
-             <p>morgens bin ich trotzig,<br>
-                aber abends werd ich schwach<br>
-                mein Wort gegen keines<br>
-                nicht mal mein eignes<br>
-                wenn nicht<br>
-                mal mehr die Hunde auf den Straßen sind,<br>
-                dann entfremdet sich die Welt<br>
+             <p>morgens bin ich trotzig,<br />
+                aber abends werd ich schwach<br />
+                mein Wort gegen keines<br />
+                nicht mal mein eignes<br />
+                wenn nicht<br />
+                mal mehr die Hunde auf den Straßen sind,<br />
+                dann entfremdet sich die Welt<br />
                 denn sie wird wieder wie sie selbst</p>
 
 
-             <p>die Busfahrer die wecken mich<br>
-                dabei bin ich lang nicht da, lange nicht da<br>
-                ich hab die Tage viel geschlafen,<br>
+             <p>die Busfahrer die wecken mich<br />
+                dabei bin ich lang nicht da, lange nicht da<br />
+                ich hab die Tage viel geschlafen,<br />
                 weil der schlaf so nah am Tod ist, viel zu nah</p>
 
-             <p>und irgendwann passierst auch du mal eines dieser Fenster,<br>
-                Hand in Hand<br>
-                ich werde drinnen sitzen, leicht gebeugt und habe dich bestimmt<br>
+             <p>und irgendwann passierst auch du mal eines dieser Fenster,<br />
+                Hand in Hand<br />
+                ich werde drinnen sitzen, leicht gebeugt und habe dich bestimmt<br />
                 nicht erkannt</p>
 
-             <p>Immer wenn ich Durst hab,<br>
-                dann geh ich in den Ozean der Zeit<br>
-                wo alle Nächte Ewigkeit erlangen<br>
-                ich zöger nicht, versprech die Wahrheit<br>
-                aber lüg wie ichs vermag<br>
-                und dann geh ich in die Arbeit jeden Tag<br>
+             <p>Immer wenn ich Durst hab,<br />
+                dann geh ich in den Ozean der Zeit<br />
+                wo alle Nächte Ewigkeit erlangen<br />
+                ich zöger nicht, versprech die Wahrheit<br />
+                aber lüg wie ichs vermag<br />
+                und dann geh ich in die Arbeit jeden Tag<br />
                 immer wenn ich Durst hab</p>
             </div>
         <div id="sein" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Sein ist Nein</div>
-            <p>Die Kinder spielen im Park<br>
-               mit den angetrunknen Tanten<br>
-               und alle zusammen freuen sich sehr<br>
-               über nette Bekannte<br>
+            <p>Die Kinder spielen im Park<br />
+               mit den angetrunknen Tanten<br />
+               und alle zusammen freuen sich sehr<br />
+               über nette Bekannte<br />
                so viele nette Bekannte</p>
 
 
-            <p>fast alle meine Freunde sind traurig<br>
-               frag nicht nach<br>
-               selbst auf den Terrassen dieser Stadt<br>
-               hat man sich selbst schon lange satt<br>
+            <p>fast alle meine Freunde sind traurig<br />
+               frag nicht nach<br />
+               selbst auf den Terrassen dieser Stadt<br />
+               hat man sich selbst schon lange satt<br />
                schon so lange satt</p>
 
 
-            <p>oh sie zieh sich schönes an<br>
-               ich quäl mich nur hinein<br>
-               denk Abends schon im Bett daran<br>
-               wie ich morgen vergessen kann<br>
+            <p>oh sie zieh sich schönes an<br />
+               ich quäl mich nur hinein<br />
+               denk Abends schon im Bett daran<br />
+               wie ich morgen vergessen kann<br />
                wie ich morgen vergessen kann</p>
 
 
-            <p>Es gibt<br>
-               Geldkoffer, Windowshopper, viele Kreditkarten<br>
-               alle kennen es schon aus, verschiednen Formaten<br>
-               aus verschiednen Formaten<br>
-               ich kenn nur Sein ist<br>
-               Nein Nein Nein Nein<br>
-               ich kenn nur Sein ist<br>
-               Nein Nein Nein Nein<br>
+            <p>Es gibt<br />
+               Geldkoffer, Windowshopper, viele Kreditkarten<br />
+               alle kennen es schon aus, verschiednen Formaten<br />
+               aus verschiednen Formaten<br />
+               ich kenn nur Sein ist<br />
+               Nein Nein Nein Nein<br />
+               ich kenn nur Sein ist<br />
+               Nein Nein Nein Nein<br />
                Ich kenn nur Sein ist</p>
 
-            <p>Ekstase für den einen<br>
-               ist dem anderen ein Wagnis<br>
-               nicht gleich Geige spielt<br>
-               wenn sie dann mal nicht da ist<br>
+            <p>Ekstase für den einen<br />
+               ist dem anderen ein Wagnis<br />
+               nicht gleich Geige spielt<br />
+               wenn sie dann mal nicht da ist<br />
                wenn sie dann mal nicht da ist</p>
 
-<p>man muss solange nicht können<br>
-               bis man nicht mehr mag<br>
-               verloren auf der Schwelle<br>
-               zum Gleichgewicht des Tags<br>
+<p>man muss solange nicht können<br />
+               bis man nicht mehr mag<br />
+               verloren auf der Schwelle<br />
+               zum Gleichgewicht des Tags<br />
                zum Gleichgewicht</p>
 
-            <p>oh wohin kann man entfliehen<br>
-               wenn der Wahnsinn dich verlässt<br>
-               ich glaub es ist ok, nervös zu werden jetzt<br>
-               nervös zu sein<br>
-               jetzt nervös zu sein<br>
-               da hilft nur Sein ist<br>
+            <p>oh wohin kann man entfliehen<br />
+               wenn der Wahnsinn dich verlässt<br />
+               ich glaub es ist ok, nervös zu werden jetzt<br />
+               nervös zu sein<br />
+               jetzt nervös zu sein<br />
+               da hilft nur Sein ist<br />
                Nein</p>
 
-            <p>Die Häuser der Vergangenen bleiben lange genug stehen<br>
-               Gedächtnis und Familien<br>
-               die hört man hier verwesen<br>
-               du, dem nichts mehr dazu einfällt<br>
-               dir, dem alles anders wird<br>
-               wenn Unglück, dann Routine<br>
-               lang gesucht und kompensiert<br>
-               sage Ja mein<br>
-               Nein<br>
-               sage Sein ist<br>
-               Nein<br>
-               sage Ja mein<br>
-               Nein<br>
-               sage Sein ist<br>
+            <p>Die Häuser der Vergangenen bleiben lange genug stehen<br />
+               Gedächtnis und Familien<br />
+               die hört man hier verwesen<br />
+               du, dem nichts mehr dazu einfällt<br />
+               dir, dem alles anders wird<br />
+               wenn Unglück, dann Routine<br />
+               lang gesucht und kompensiert<br />
+               sage Ja mein<br />
+               Nein<br />
+               sage Sein ist<br />
+               Nein<br />
+               sage Ja mein<br />
+               Nein<br />
+               sage Sein ist<br />
                Nein Nein Nein Nein</p>
         </div>
 
@@ -699,56 +699,56 @@ const Lyrics = ({ data }) => {
         </div>
         <div id="fenster" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Fenster zur Welt</div>
-            <p>Lang in den Nächten<br>
-               die Taxis fahren<br>
-               alle suchen was, ich weiß nicht, was es gibt<br>
-               ohne Gedächtnis<br>
-               vom eigenen Verfall die Antwort hören wollen<br>
+            <p>Lang in den Nächten<br />
+               die Taxis fahren<br />
+               alle suchen was, ich weiß nicht, was es gibt<br />
+               ohne Gedächtnis<br />
+               vom eigenen Verfall die Antwort hören wollen<br />
                woran einem etwas liegt</p>
 
-            <p>du sagst es geht dir besser heut als gestern<br>
-               aber morgen ist nicht allzu weit entfernt<br>
-               nicht weiter drüber nachgedacht ist besser<br>
+            <p>du sagst es geht dir besser heut als gestern<br />
+               aber morgen ist nicht allzu weit entfernt<br />
+               nicht weiter drüber nachgedacht ist besser<br />
                leicht verdrossen ist das Fenster zur Welt</p>
 
-            <p>und die Blätter der Bäume fallen vor meinen Augen<br>
-               wir klettern auf Kreuze, dass man es besser sieht<br>
-               die Blätter der Bäume fallen vor meinen Augen<br>
+            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
                weil es nichts besseres gibt</p>
 
-            <p>und wo die Sonne scheint, ist ganz egal<br>
-               denn um aufzugeben ist man nie zu alt<br>
-               in die gläserne Leere nichts gefragt<br>
-               verstehen kann nur, wer nicht die Wahrheit sagt<br>
+            <p>und wo die Sonne scheint, ist ganz egal<br />
+               denn um aufzugeben ist man nie zu alt<br />
+               in die gläserne Leere nichts gefragt<br />
+               verstehen kann nur, wer nicht die Wahrheit sagt<br />
                verstehen kann nur, wer nicht die Wahrheit sagt</p>
 
-            <p>frag mich nicht, wie es mir geht<br>
-               ich hab zu oft daran gedacht<br>
-               ich wünscht, ich hätt mein Leben mehr dem Leben hingegeben<br>
+            <p>frag mich nicht, wie es mir geht<br />
+               ich hab zu oft daran gedacht<br />
+               ich wünscht, ich hätt mein Leben mehr dem Leben hingegeben<br />
                was auch immer das bedeuten mag</p>
 
-            <p>da wo die Stadt ihren Schmerz lagert<br>
-               in schalen Küssen leerer Flaschen<br>
-               da träum ich von Gewalt<br>
-               fühle den, der trinkt, und die Laterne leuchtet blind<br>
+            <p>da wo die Stadt ihren Schmerz lagert<br />
+               in schalen Küssen leerer Flaschen<br />
+               da träum ich von Gewalt<br />
+               fühle den, der trinkt, und die Laterne leuchtet blind<br />
                auf eine Straße, auf die niemand sich mehr wagt</p>
 
-            <p>und die Blätter der Bäume fallen vor meinen Augen<br>
-               wir klettern auf Kreuze, dass man es besser sieht<br>
-               die Blätter der Bäume fallen vor meinen Augen<br>
-               wir klettern auf Kreuze, dass man es besser sieht<br>
-               die Blätter der Bäume fallen vor meinen Augen<br>
+            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
                weil es nichts besseres gibt</p>
 
-            <p>lang in den Nächten<br>
-               die taxis fahren<br>
-               und alle suchen, ich versteh nicht was es gibt<br>
-               ohne Gedächtnis, nicht gelernt und nicht verstanden<br>
+            <p>lang in den Nächten<br />
+               die taxis fahren<br />
+               und alle suchen, ich versteh nicht was es gibt<br />
+               ohne Gedächtnis, nicht gelernt und nicht verstanden<br />
                woran einem eigentlich etwas liegt</p>
 
-            <p>ich frag mich, ob man sehn kann, dass ich lächle<br>
-               denn man fragt mich, ob mir überhaupt irgendwas gefällt<br>
-               nicht weiter drüber nachgedacht ist besser<br>
+            <p>ich frag mich, ob man sehn kann, dass ich lächle<br />
+               denn man fragt mich, ob mir überhaupt irgendwas gefällt<br />
+               nicht weiter drüber nachgedacht ist besser<br />
                eicht verdrossen bleibt das Fenster zur Welt</p>
         </div>
          
