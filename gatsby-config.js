@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.unwohl.com",
-        sitemap: "https://www.unwohl.com/sitemap.xml",
+        host: "https://unwohl.com",
+        sitemap: "https://unwohl.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
