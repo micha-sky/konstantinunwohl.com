@@ -189,9 +189,9 @@ const Lyrics = ({ data }) => {
           <br />
           wie die Schritte auf der Treppe langsam verhallen
           <br />
-          <br />
-          <br />
-          immer noch fest dran drauf dran lebendig zu verfallen
+          fühl den Nachklang<br />
+          immer noch fest dran drauf dran<br /> 
+          lebendig zu verfallen
           <br />
           mancher stirbt an Lebenslust
           <br />
@@ -201,24 +201,21 @@ const Lyrics = ({ data }) => {
           dumm gemacht
           <br />
           <br />
-          <br />
           maße dir die Kleider der Wahrheit an
           <br />
           denn was auch immer diese nutzlosen Hände vollbracht haben
           <br />
           hält nicht lang
           <br />
-          <br />
           sieh die Einsamkeit der Welt, aber frag nicht nach
           <br />
           ja studiere keine Quellen mehr, nur noch Kommentar
           <br />
-          und du wirst irgendwann vergessen haben
+          und du wirst irgendwann vergessen
           <br />
           ob es immer schon so war
           <br />
           immer schon so war
-          <br />
           <br />
           <br />
           und dann fühle dich
@@ -238,7 +235,6 @@ const Lyrics = ({ data }) => {
           ja dann fühle dich fremd fühl dich fremd fühl dich fremd
           <br />
           <br />
-          <br />
           zwischen quälend ungewissen Entitäten
           <br />
           ständig falsch gesetzten Prioritäten
@@ -248,7 +244,6 @@ const Lyrics = ({ data }) => {
           und allen diesen Unzulänglichkeiten
           <br />
           genau da da da da da da da da
-          <br />
           <br />
           <br />
           wenn ein Stein fallen will
@@ -265,14 +260,12 @@ const Lyrics = ({ data }) => {
           werd die Vase deren Blumen auf den Abfall harrn
           <br />
           <br />
-          <br />
           ja fürchte nicht die Höhen
           <br />
           aber fürchte den Reflex
           <br />
           fürcht die Sehnsucht deines Körpers <br />
           und die Leute um dich rum, die sagen Pech Pech Pech Pech Pech
-          <br />
           <br />
           <br />
           Lad ein, zur Besichtigung der inneren Unruhe
