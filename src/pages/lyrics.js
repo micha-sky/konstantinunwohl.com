@@ -79,7 +79,7 @@ const Lyrics = ({ data }) => {
             </ul>
           </div>
         </div>
-<div id="balance" className="text-container space-x-0 ml-14 mb-8">
+        <div id="balance" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Balance</div>
           <p>
             Ich z&auml;hle wieder meine Schritte
@@ -269,7 +269,61 @@ const Lyrics = ({ data }) => {
 
    <div id="wagen" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Hoch auf dem gelben Wagen</div>
-          <p>Es weht ein kalter Wind im Neubaugebiet,<br />aber dennoch gehen die Leute auf der Stra&szlig;e<br />mir ist nicht mehr ganz klar, was man hier gewinnt<br />und die Sirenen singen mir Lieder vom Schlafen<br /><br />Man unterhielt sich mit mir vom Balkon aus<br />und ich stand dabei im Garten<br />das Gras war sch&ouml;n und es war frisch gem&auml;ht<br />ich wei&szlig; nicht, ob sie mir das &uuml;bel nahmen<br /><br />An Orten, wo nur Stille herrscht, da nimmt man sich in Acht<br />und bel&auml;stigt besser kein mit seinen Fragen.<br />Wo Gem&auml;&szlig;igkeit spazieren geht, da horcht man, wenn gerufen wird<br />so f&uuml;hr ein kleines Buch mit deinen Taten<br />Und am sch&ouml;nsten aller Tage, ja da lauf ich euch davon<br />die Sonne w&auml;rmt die Haut, wenn ich entschlafe<br />niemand, der von gro&szlig; und wichtig spricht<br />meint, dass es das wirklich gibt<br />so f&uuml;rchte nicht den Tod, sondern die Sprache<br /><br />Man f&auml;hrt noch nicht so lang mit mir<br />hoch auf dem gelben Wagen<br />es gibt so viele Dinge<br />die andre schon gesehen haben<br />ich malt mir viele Bilder aus<br />in v&ouml;llig andren Farben<br />auch daf&uuml;r gibt es Orte<br />nur was soll man schon erwarten<br /><br />Man f&auml;hrt noch nicht so lang mit mir<br />hoch auf dem gelben Wagen<br />wer will schon jung und weise sein<br />was soll man da schon sagen<br /><br />Ich dachte ja auch, man versteht sich<br />aber nun geb ich meinen Anspruch zur&uuml;ck<br />vielleicht wars zu viel, oder zu wenig<br />aber wer Verr&uuml;ckten in die Karten schaut ist selbst verr&uuml;ckt<br /><br />Man h&auml;tte sich ja so viel zu sagen<br />nur leider sieht man sich so selten<br />jetzt sind die Ziele vergessen und der Wille verfehlt<br />aber man f&auml;hrt hoch auf dem gelben Wagen<br /><br />Und alle Stimmen der Vernunft<br />singen in einem Chor<br />aber warten eigentlich nur auf ihre Pause<br />im Gedachten war es gut und nur im Echten tuts nicht Not<br />h&auml;tt ich wissen sollen, als ich noch daran glaubte<br />denn am sch&ouml;nsten aller Tage<br />da lauf ich euch davon<br />die Sonne w&auml;rmt die Haut, wenn ich entschlafe<br />niemand, der von gro&szlig; und wichtig spricht<br />meint, dass es das wirklich gibt<br />so f&uuml;rchte nicht den Tod, sondern die Sprache</p>
+          <p>Es weht ein kalter Wind im Neubaugebiet,<br>
+             aber dennoch gehen die Leute auf der Straße<br>
+             mir ist nicht mehr ganz klar, was man hier gewinnt<br>
+             und die Sirenen singen mir Lieder vom Schlafen</p>
+
+          <p>Man unterhielt sich mit mir vom Balkon aus<br>
+             und ich stand dabei im Garten<br>
+             das Gras war schön und es war frisch gemäht<br>
+             ich weiß nicht, ob sie mir das übel nahmen</p>
+
+          <p>An Orten, wo nur Stille herrscht, da nimmt man sich in Acht<br>
+             und belästigt besser kein mit seinen Fragen.<br>
+             Wo Gemäßigkeit spazieren geht, da horcht man, wenn gerufen wird<br>
+             so führ ein kleines Buch mit deinen Taten<br>
+             Und am schönsten aller Tage, ja da lauf ich euch davon<br>
+             die Sonne wärmt die Haut, wenn ich entschlafe<br>
+             niemand, der von groß und wichtig spricht<br>
+             meint, dass es das wirklich gibt<br>
+             so fürchte nicht den Tod, sondern die Sprache</p>
+
+          <p>Man fährt noch nicht so lang mit mir<br>
+             hoch auf dem gelben Wagen<br>
+             es gibt so viele Dinge<br>
+             die andre schon gesehen haben<br>
+             ich malt mir viele Bilder aus<br>
+             in völlig andren Farben<br>
+             auch dafür gibt es Orte<br>
+             nur was soll man schon erwarten</p>
+
+          <p>Man fährt noch nicht so lang mit mir<br>
+             hoch auf dem gelben Wagen<br>
+             wer will schon jung und weise sein<br>
+             was soll man da schon sagen</p>
+
+          <p>Ich dachte ja auch, man versteht sich<br>
+             aber nun geb ich meinen Anspruch zurück<br>
+             vielleicht wars zu viel, oder zu wenig<br>
+             aber wer Verrückten in die Karten schaut ist selbst verrückt</p>
+
+          <p>Man hätte sich ja so viel zu sagen<br>
+             nur leider sieht man sich so selten<br>
+             jetzt sind die Ziele vergessen und der Wille verfehlt<br>
+             aber man fährt hoch auf dem gelben Wagen</p>
+
+          <p>Und alle Stimmen der Vernunft<br>
+             singen in einem Chor<br>
+             aber warten eigentlich nur auf ihre Pause<br>
+             im Gedachten war es gut und nur im Echten tuts nicht Not<br>
+             hätt ich wissen sollen, als ich noch daran glaubte<br>
+             denn am schönsten aller Tage<br>
+             da lauf ich euch davon<br>
+             die Sonne wärmt die Haut, wenn ich entschlafe<br>
+             niemand, der von groß und wichtig spricht<br>
+             meint, dass es das wirklich gibt<br>
+             so fürchte nicht den Tod, sondern die Sprache</p>
         </div>
         <div id="ichhasse" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Ich hass es, wenn man Spaß hat</div>
