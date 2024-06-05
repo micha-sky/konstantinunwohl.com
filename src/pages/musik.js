@@ -79,6 +79,20 @@ const Musik = ({ data }) => {
               </div>
             </Link>
             <Link
+              to="https://ernstlabel.bandcamp.com/album/bald-wirds-ernst"
+              className="text-sm no-underline mb-3"
+            >
+              <StaticImage
+                src="../images/musik/bald.jpg"
+                loading="lazy"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="Ich gehe"
+                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+              />
+              <div className="text-center mt-4 font-bold">Ernst Leben - Bald wirds ernst</div>
+            </Link>
+            <Link
               to="https://konstantinunwohl.bandcamp.com/album/ich-w-rd-lieber-nicht"
               className="text-sm no-underline mb-3"
             >
