@@ -1,8 +1,7 @@
 ---
 title: update2
 date: "2024-05-04T22:12:03.284Z"
-description: ++++++update++++++
-leider muss auch Bielefeld abgesagt werden. Bitte entschuldigt die späte Meldung - wir sehen uns aber bestimmt ein anderes mal wieder!
+description:
 type: "blog"
 tags: ["tour", "music", "news"]
 ---
