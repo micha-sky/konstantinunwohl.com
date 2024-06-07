@@ -62,6 +62,22 @@ const Musik = ({ data }) => {
                 Ernst Leben - Nicht dein Ernst
               </p>
             </Link>
+             <Link
+              to="https://luxrec.bandcamp.com/album/mrt009-ehre"
+              className="text-sm no-underline mb-3"
+            >
+              <StaticImage
+                src="../images/musik/ehre.jpg"
+                loading="lazy"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="Ich gehe"
+                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+              />
+              <p className="text-center mt-4 font-bold">
+                Acid Ernst - Ehre
+              </p>
+            </Link>
             <Link
               to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik"
               className="text-sm no-underline mb-3"
