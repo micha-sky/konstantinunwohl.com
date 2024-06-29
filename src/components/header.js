@@ -98,7 +98,7 @@ const Header = () => {
           </Link>
 
           <Link
-            to="https://aufnahmeundwiedergabe.bigcartel.com/category/aufnahme-wiedergabe"
+            to="https://konstantinunwohl.bandcamp.com/merch"
             style={{
               fontSize: `var(--font-sm)`,
               textDecoration: `none`,
