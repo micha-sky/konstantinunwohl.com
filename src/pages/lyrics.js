@@ -79,240 +79,6 @@ const Lyrics = ({ data }) => {
             </ul>
           </div>
         </div>
-        <div id="ichhasse" className="text-container space-x-0 ml-14 mb-8">
-          <div className="text-2xl bold">Ich hass es, wenn man Spaß hat</div>
-          An der Holstenstraße fährt der letzte Zug
-          <br />
-          und ich falle in Gedanken auf ie Gleise
-          <br />
-          ich dachte eigentlich ich hätt genug gehabt
-          <br />
-          am Bahnhof wie zuhause immer das gleiche
-          <br />
-          <br />
-          ich gehe meinen Weg in Richtung hier und da
-          <br />
-          ich weiß schon lange nicht mehr, wo ich gestern war
-          <br />
-          die Tage zieht vorbei, nur die leere Hülle bleibt
-          <br />
-          im andern zimmer wird gelacht
-          <br />
-          wenn man Spaß hat
-          <br />
-          <br />
-          Ich hass es, wenn man Spaß hat
-          <br />
-          Wenn man
-          <br />
-          Ich hass es, wenn man Spaß hat
-          <br />
-          Ich hass es, wenn man Spaß hat
-          <br />
-          Wenn man
-          <br />
-          <br />
-          Seitdem ich mich kenne
-          <br />
-          komm ich jedes Jahr im Winter auf dieselben Gedanken
-          <br />
-          die Lebenden sind tot
-          <br />
-          und die toten, die leben
-          <br />
-          geben Geld aus und gehen wandern
-          <br />
-          <br />
-          oh es windet sich im Bett ein Körper
-          <br />
-          den ich besaß
-          <br />
-          oh ich habe viele Bücher, worin ich davon las
-          <br />
-          <br />
-          und wenn der Überdruss
-          <br />
-          der Weile nach mir greift
-          <br />
-          wenn ich alles vernein
-          <br />
-          da bin ich daheim
-          <br />
-          die Funken singen im Zaun
-          <br />
-          wenn man nicht mehr weiß, wofür man zu bleiben braucht
-          <br />
-          wenn ich alles vernein
-          <br />
-          da bin ich daheim
-          <br />
-          <br />
-          bleib bevor du gehst, aber geh bevor du fährst
-          <br />
-          schau zu lange in den Spiegel und du siehst nicht mehr dich selbst
-          <br />
-          das sage dem, der Sorgen trägt
-          <br />
-          und dass die Sorgen immer dauern
-          <br />
-          wenn die Freude auch verweht
-          <br />
-          <br />
-          Jedes Abenteuer ist nur ein ironischer Besuch
-          <br />
-          sowieso ist es zu früh, oder zu spät für den Versuch
-          <br />
-          schon viel davon gehört, vielleicht versuch ich mich daran
-          <br />
-          fall langsam auseinander und was übrig bleibt ist Angst
-          <br />
-          <br />
-          und selbst wenn und selbst wenn und selbst wenn und selbst wenn
-          <br />
-          solang ich alles vernein
-          <br />
-          da bin ich daheim
-          <br />
-          die Funken singen im Zaun
-          <br />
-          wenn man nicht mehr weiß, wofür man zu bleiben braucht
-          <br />
-          wenn ich alles vernein
-          <br />
-          da bin ich daheim
-          <br />
-        </div>
-        <div id="anleitung" className="text-container space-x-0 ml-14">
-          <div className="text-2xl bold">Anleitung zum Versagen</div>
-          Du musst langsam gehen beim schleppen <br />
-          denn du musst hören können
-          <br />
-          wie die Schritte auf der Treppe langsam verhallen
-          <br />
-          fühl den Nachklang<br />
-          immer noch fest dran drauf dran<br /> 
-          lebendig zu verfallen
-          <br />
-          mancher stirbt an Lebenslust
-          <br />
-          andere am Leben <br />
-          trinke ein Bier, ein Schnaps, schäm dich, denk dumm gemacht
-          <br />
-          dumm gemacht
-          <br />
-          <br />
-          maße dir die Kleider der Wahrheit an
-          <br />
-          denn was auch immer diese nutzlosen Hände vollbracht haben
-          <br />
-          hält nicht lang
-          <br />
-          sieh die Einsamkeit der Welt, aber frag nicht nach
-          <br />
-          ja studiere keine Quellen mehr, nur noch Kommentar
-          <br />
-          und du wirst irgendwann vergessen
-          <br />
-          ob es immer schon so war
-          <br />
-          immer schon so war
-          <br />
-          <br />
-          und dann fühle dich
-          <br />
-          und fühle dich fremd
-          <br />
-          und dann fühle dich fremd
-          <br />
-          und dann fühle dich fremd fühl dich fremd fühl dich fremd
-          <br />
-          ja dann fühle dich fremd
-          <br />
-          dann fühle dich fremd
-          <br />
-          dann fühle dich fremd
-          <br />
-          ja dann fühle dich fremd fühl dich fremd fühl dich fremd
-          <br />
-          <br />
-          zwischen quälend ungewissen Entitäten
-          <br />
-          ständig falsch gesetzten Prioritäten
-          <br />
-          allen diesen schambefleckten Zeiten
-          <br />
-          und allen diesen Unzulänglichkeiten
-          <br />
-          genau da da da da da da da da
-          <br />
-          <br />
-          wenn ein Stein fallen will
-          <br />
-          gib ihm besser einen Stoß
-          <br />
-          es gibt nie lang Befreiung <br />
-          aus den Klauen des Tods
-          <br />
-          werd zum Schatten der Bekannten
-          <br />
-          wart wie Wiesen auf den Schnitter
-          <br />
-          werd die Vase deren Blumen auf den Abfall harrn
-          <br />
-          <br />
-          ja fürchte nicht die Höhen
-          <br />
-          aber fürchte den Reflex
-          <br />
-          fürcht die Sehnsucht deines Körpers <br />
-          und die Leute um dich rum, die sagen Pech Pech Pech Pech Pech
-          <br />
-          <br />
-          Lad ein, zur Besichtigung der inneren Unruhe
-          <br />
-          gib auf, wenn die bestätigenden Stimmen verstummen
-          <br />
-          frag nie, ob es noch irgendetwas anderes gibt
-          <br />
-          als das, was zwischen deiner und der Weltenleere liegt
-          <br />
-          <br />
-          <br />
-          sieh die Wolken ein fallender Mann
-          <br />
-          der über den Himmel zieht
-          <br />
-          und dann fühle dich fühle dich fremd <br />
-          fühle dich fremd
-          <br />
-          ja dann fühle dich fremd
-          <br />
-          dann fühle dich fremd
-          <br />
-          ja dann fühle dich fremd fühl dich fremd fühl dich fremd fühl dich
-          fremd
-          <br />
-          dann fühle dich fremd
-          <br />
-          ja dann fühle dich fremd
-          <br />
-          und dann fühle dich fremd
-          <br />
-          ja dann fühle dich fremd fühl dich fremd fühl dich fremd fühl dich
-          fremd
-          <br />
-          <br />
-          zwischen quälend ungewissen Entitäten
-          <br />
-          ständig falsch gesetzten Prioritäten
-          <br />
-          allen diesen schambefleckten Zeiten
-          <br />
-          und allen diesen Unzulänglichkeiten
-          <br />
-          genau da da da da da da da da
-          <br />
-        </div>
         <div id="balance" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Balance</div>
           <p>
@@ -499,60 +265,6 @@ am anderen Ende der Sintflut<br />
 eine Tr&auml;ne kein Rekrut<br />
 </p>
         </div>
-        <div id="fenster" className="text-container space-x-0 ml-14 mb-8">
-          <div className="text-2xl bold">Fenster zur Welt</div>
-          <p>Lang in den Nächten<br />
-               die Taxis fahren<br />
-               alle suchen was, ich weiß nicht, was es gibt<br />
-               ohne Gedächtnis<br />
-               vom eigenen Verfall die Antwort hören wollen<br />
-               woran einem etwas liegt</p>
-
-            <p>du sagst es geht dir besser heut als gestern<br />
-               aber morgen ist nicht allzu weit entfernt<br />
-               nicht weiter drüber nachgedacht ist besser<br />
-               leicht verdrossen ist das Fenster zur Welt</p>
-
-            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
-               wir klettern auf Kreuze, dass man es besser sieht<br />
-               die Blätter der Bäume fallen vor meinen Augen<br />
-               weil es nichts besseres gibt</p>
-
-            <p>und wo die Sonne scheint, ist ganz egal<br />
-               denn um aufzugeben ist man nie zu alt<br />
-               in die gläserne Leere nichts gefragt<br />
-               verstehen kann nur, wer nicht die Wahrheit sagt<br />
-               verstehen kann nur, wer nicht die Wahrheit sagt</p>
-
-            <p>frag mich nicht, wie es mir geht<br />
-               ich hab zu oft daran gedacht<br />
-               ich wünscht, ich hätt mein Leben mehr dem Leben hingegeben<br />
-               was auch immer das bedeuten mag</p>
-
-            <p>da wo die Stadt ihren Schmerz lagert<br />
-               in schalen Küssen leerer Flaschen<br />
-               da träum ich von Gewalt<br />
-               fühle den, der trinkt, und die Laterne leuchtet blind<br />
-               auf eine Straße, auf die niemand sich mehr wagt</p>
-
-            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
-               wir klettern auf Kreuze, dass man es besser sieht<br />
-               die Blätter der Bäume fallen vor meinen Augen<br />
-               wir klettern auf Kreuze, dass man es besser sieht<br />
-               die Blätter der Bäume fallen vor meinen Augen<br />
-               weil es nichts besseres gibt</p>
-
-            <p>lang in den Nächten<br />
-               die taxis fahren<br />
-               und alle suchen, ich versteh nicht was es gibt<br />
-               ohne Gedächtnis, nicht gelernt und nicht verstanden<br />
-               woran einem eigentlich etwas liegt</p>
-
-            <p>ich frag mich, ob man sehn kann, dass ich lächle<br />
-               denn man fragt mich, ob mir überhaupt irgendwas gefällt<br />
-               nicht weiter drüber nachgedacht ist besser<br />
-               eicht verdrossen bleibt das Fenster zur Welt</p>
-        </div>
         <div id="wagen" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Hoch auf dem gelben Wagen</div>
           <p>Es weht ein kalter Wind im Neubaugebiet<br />
@@ -610,6 +322,109 @@ eine Tr&auml;ne kein Rekrut<br />
              niemand, der von groß und wichtig spricht<br />
              meint, dass es das wirklich gibt<br />
              so fürchte nicht den Tod, sondern die Sprache</p>
+        </div>
+        <div id="ichhasse" className="text-container space-x-0 ml-14 mb-8">
+          <div className="text-2xl bold">Ich hass es, wenn man Spaß hat</div>
+          An der Holstenstraße fährt der letzte Zug
+          <br />
+          und ich falle in Gedanken auf ie Gleise
+          <br />
+          ich dachte eigentlich ich hätt genug gehabt
+          <br />
+          am Bahnhof wie zuhause immer das gleiche
+          <br />
+          <br />
+          ich gehe meinen Weg in Richtung hier und da
+          <br />
+          ich weiß schon lange nicht mehr, wo ich gestern war
+          <br />
+          die Tage zieht vorbei, nur die leere Hülle bleibt
+          <br />
+          im andern zimmer wird gelacht
+          <br />
+          wenn man Spaß hat
+          <br />
+          <br />
+          Ich hass es, wenn man Spaß hat
+          <br />
+          Wenn man
+          <br />
+          Ich hass es, wenn man Spaß hat
+          <br />
+          Ich hass es, wenn man Spaß hat
+          <br />
+          Wenn man
+          <br />
+          <br />
+          Seitdem ich mich kenne
+          <br />
+          komm ich jedes Jahr im Winter auf dieselben Gedanken
+          <br />
+          die Lebenden sind tot
+          <br />
+          und die toten, die leben
+          <br />
+          geben Geld aus und gehen wandern
+          <br />
+          <br />
+          oh es windet sich im Bett ein Körper
+          <br />
+          den ich besaß
+          <br />
+          oh ich habe viele Bücher, worin ich davon las
+          <br />
+          <br />
+          und wenn der Überdruss
+          <br />
+          der Weile nach mir greift
+          <br />
+          wenn ich alles vernein
+          <br />
+          da bin ich daheim
+          <br />
+          die Funken singen im Zaun
+          <br />
+          wenn man nicht mehr weiß, wofür man zu bleiben braucht
+          <br />
+          wenn ich alles vernein
+          <br />
+          da bin ich daheim
+          <br />
+          <br />
+          bleib bevor du gehst, aber geh bevor du fährst
+          <br />
+          schau zu lange in den Spiegel und du siehst nicht mehr dich selbst
+          <br />
+          das sage dem, der Sorgen trägt
+          <br />
+          und dass die Sorgen immer dauern
+          <br />
+          wenn die Freude auch verweht
+          <br />
+          <br />
+          Jedes Abenteuer ist nur ein ironischer Besuch
+          <br />
+          sowieso ist es zu früh, oder zu spät für den Versuch
+          <br />
+          schon viel davon gehört, vielleicht versuch ich mich daran
+          <br />
+          fall langsam auseinander und was übrig bleibt ist Angst
+          <br />
+          <br />
+          und selbst wenn und selbst wenn und selbst wenn und selbst wenn
+          <br />
+          solang ich alles vernein
+          <br />
+          da bin ich daheim
+          <br />
+          die Funken singen im Zaun
+          <br />
+          wenn man nicht mehr weiß, wofür man zu bleiben braucht
+          <br />
+          wenn ich alles vernein
+          <br />
+          da bin ich daheim
+          <br />
         </div>
         <div id="ozean" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Ozean der Zeit</div>
@@ -737,6 +552,191 @@ eine Tr&auml;ne kein Rekrut<br />
                Nein<br />
                sage Sein ist<br />
                Nein Nein Nein Nein</p>
+        </div>
+        <div id="anleitung" className="text-container space-x-0 ml-14">
+          <div className="text-2xl bold">Anleitung zum Versagen</div>
+          Du musst langsam gehen beim schleppen <br />
+          denn du musst hören können
+          <br />
+          wie die Schritte auf der Treppe langsam verhallen
+          <br />
+          fühl den Nachklang<br />
+          immer noch fest dran drauf dran<br /> 
+          lebendig zu verfallen
+          <br />
+          mancher stirbt an Lebenslust
+          <br />
+          andere am Leben <br />
+          trinke ein Bier, ein Schnaps, schäm dich, denk dumm gemacht
+          <br />
+          dumm gemacht
+          <br />
+          <br />
+          maße dir die Kleider der Wahrheit an
+          <br />
+          denn was auch immer diese nutzlosen Hände vollbracht haben
+          <br />
+          hält nicht lang
+          <br />
+          sieh die Einsamkeit der Welt, aber frag nicht nach
+          <br />
+          ja studiere keine Quellen mehr, nur noch Kommentar
+          <br />
+          und du wirst irgendwann vergessen
+          <br />
+          ob es immer schon so war
+          <br />
+          immer schon so war
+          <br />
+          <br />
+          und dann fühle dich
+          <br />
+          und fühle dich fremd
+          <br />
+          und dann fühle dich fremd
+          <br />
+          und dann fühle dich fremd fühl dich fremd fühl dich fremd
+          <br />
+          ja dann fühle dich fremd
+          <br />
+          dann fühle dich fremd
+          <br />
+          dann fühle dich fremd
+          <br />
+          ja dann fühle dich fremd fühl dich fremd fühl dich fremd
+          <br />
+          <br />
+          zwischen quälend ungewissen Entitäten
+          <br />
+          ständig falsch gesetzten Prioritäten
+          <br />
+          allen diesen schambefleckten Zeiten
+          <br />
+          und allen diesen Unzulänglichkeiten
+          <br />
+          genau da da da da da da da da
+          <br />
+          <br />
+          wenn ein Stein fallen will
+          <br />
+          gib ihm besser einen Stoß
+          <br />
+          es gibt nie lang Befreiung <br />
+          aus den Klauen des Tods
+          <br />
+          werd zum Schatten der Bekannten
+          <br />
+          wart wie Wiesen auf den Schnitter
+          <br />
+          werd die Vase deren Blumen auf den Abfall harrn
+          <br />
+          <br />
+          ja fürchte nicht die Höhen
+          <br />
+          aber fürchte den Reflex
+          <br />
+          fürcht die Sehnsucht deines Körpers <br />
+          und die Leute um dich rum, die sagen Pech Pech Pech Pech Pech
+          <br />
+          <br />
+          Lad ein, zur Besichtigung der inneren Unruhe
+          <br />
+          gib auf, wenn die bestätigenden Stimmen verstummen
+          <br />
+          frag nie, ob es noch irgendetwas anderes gibt
+          <br />
+          als das, was zwischen deiner und der Weltenleere liegt
+          <br />
+          <br />
+          <br />
+          sieh die Wolken ein fallender Mann
+          <br />
+          der über den Himmel zieht
+          <br />
+          und dann fühle dich fühle dich fremd <br />
+          fühle dich fremd
+          <br />
+          ja dann fühle dich fremd
+          <br />
+          dann fühle dich fremd
+          <br />
+          ja dann fühle dich fremd fühl dich fremd fühl dich fremd fühl dich
+          fremd
+          <br />
+          dann fühle dich fremd
+          <br />
+          ja dann fühle dich fremd
+          <br />
+          und dann fühle dich fremd
+          <br />
+          ja dann fühle dich fremd fühl dich fremd fühl dich fremd fühl dich
+          fremd
+          <br />
+          <br />
+          zwischen quälend ungewissen Entitäten
+          <br />
+          ständig falsch gesetzten Prioritäten
+          <br />
+          allen diesen schambefleckten Zeiten
+          <br />
+          und allen diesen Unzulänglichkeiten
+          <br />
+          genau da da da da da da da da
+          <br />
+        </div>
+        <div id="fenster" className="text-container space-x-0 ml-14 mb-8">
+          <div className="text-2xl bold">Fenster zur Welt</div>
+          <p>Lang in den Nächten<br />
+               die Taxis fahren<br />
+               alle suchen was, ich weiß nicht, was es gibt<br />
+               ohne Gedächtnis<br />
+               vom eigenen Verfall die Antwort hören wollen<br />
+               woran einem etwas liegt</p>
+
+            <p>du sagst es geht dir besser heut als gestern<br />
+               aber morgen ist nicht allzu weit entfernt<br />
+               nicht weiter drüber nachgedacht ist besser<br />
+               leicht verdrossen ist das Fenster zur Welt</p>
+
+            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
+               weil es nichts besseres gibt</p>
+
+            <p>und wo die Sonne scheint, ist ganz egal<br />
+               denn um aufzugeben ist man nie zu alt<br />
+               in die gläserne Leere nichts gefragt<br />
+               verstehen kann nur, wer nicht die Wahrheit sagt<br />
+               verstehen kann nur, wer nicht die Wahrheit sagt</p>
+
+            <p>frag mich nicht, wie es mir geht<br />
+               ich hab zu oft daran gedacht<br />
+               ich wünscht, ich hätt mein Leben mehr dem Leben hingegeben<br />
+               was auch immer das bedeuten mag</p>
+
+            <p>da wo die Stadt ihren Schmerz lagert<br />
+               in schalen Küssen leerer Flaschen<br />
+               da träum ich von Gewalt<br />
+               fühle den, der trinkt, und die Laterne leuchtet blind<br />
+               auf eine Straße, auf die niemand sich mehr wagt</p>
+
+            <p>und die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
+               wir klettern auf Kreuze, dass man es besser sieht<br />
+               die Blätter der Bäume fallen vor meinen Augen<br />
+               weil es nichts besseres gibt</p>
+
+            <p>lang in den Nächten<br />
+               die taxis fahren<br />
+               und alle suchen, ich versteh nicht was es gibt<br />
+               ohne Gedächtnis, nicht gelernt und nicht verstanden<br />
+               woran einem eigentlich etwas liegt</p>
+
+            <p>ich frag mich, ob man sehn kann, dass ich lächle<br />
+               denn man fragt mich, ob mir überhaupt irgendwas gefällt<br />
+               nicht weiter drüber nachgedacht ist besser<br />
+               eicht verdrossen bleibt das Fenster zur Welt</p>
         </div>
       </div>
       {isVisible && (
