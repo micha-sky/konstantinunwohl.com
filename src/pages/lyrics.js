@@ -681,8 +681,7 @@ eine Tr&auml;ne kein Rekrut<br />
           <br />
           und allen diesen Unzulänglichkeiten
           <br />
-          genau da da da da da da da da
-          <br />
+          genau da da da da da da da da</p>
         </div>
         <div id="fenster" className="text-container space-x-0 ml-14 mb-8">
           <div className="text-2xl bold">Fenster zur Welt</div>
