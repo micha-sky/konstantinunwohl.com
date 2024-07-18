@@ -19,23 +19,28 @@ const Header = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 space-x-6 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-7/12  ">
-          <Link to="/musik" className="text-sm no-underline mb-3">
+        <div
+          className="grid
+    grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6
+    gap-0.5 sm:gap-1 md:gap-1.5 lg:gap-2 xl:gap-2
+    w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-7/12"
+        >
+          <Link
+            to="/musik"
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
+          >
             <StaticImage
               src="../images/musik.png"
               loading="lazy"
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Musik"
-              height={75}
+              className="w-full h-auto"
             />
           </Link>
           <Link
             to="/lyrics"
-            style={{
-              fontSize: `var(--font-sm)`,
-              textDecoration: `none`,
-            }}
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
           >
             <StaticImage
               src="../images/lyrics.png"
@@ -44,15 +49,13 @@ const Header = () => {
               formats={["auto", "webp", "avif"]}
               alt="Lyrics"
               height={75}
+              className="w-full h-auto"
             />
           </Link>
 
           <Link
             to="/kontakt"
-            style={{
-              fontSize: `var(--font-sm)`,
-              textDecoration: `none`,
-            }}
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
           >
             <StaticImage
               src="../images/kontakt.png"
@@ -61,15 +64,13 @@ const Header = () => {
               formats={["auto", "webp", "avif"]}
               alt="Kontakt"
               height={75}
+              className="w-full h-auto"
             />
           </Link>
 
           <Link
             to="/konzerte"
-            style={{
-              fontSize: `var(--font-sm)`,
-              textDecoration: `none`,
-            }}
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
           >
             <StaticImage
               src="../images/konzerte.png"
@@ -78,14 +79,12 @@ const Header = () => {
               formats={["auto", "webp", "avif"]}
               alt="Konzerte"
               height={75}
+              className="w-full h-auto"
             />
           </Link>
           <Link
             to="/videos"
-            style={{
-              fontSize: `var(--font-sm)`,
-              textDecoration: `none`,
-            }}
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
           >
             <StaticImage
               src="../images/videos.png"
@@ -94,15 +93,13 @@ const Header = () => {
               formats={["auto", "webp", "avif"]}
               alt="Konzerte"
               height={75}
+              className="w-full h-auto"
             />
           </Link>
 
           <Link
             to="https://konstantinunwohl.bandcamp.com/merch"
-            style={{
-              fontSize: `var(--font-sm)`,
-              textDecoration: `none`,
-            }}
+            className="text-sm no-underline transform scale-75 sm:scale-85 md:scale-100"
           >
             <StaticImage
               src="../images/shop.png"
@@ -111,6 +108,7 @@ const Header = () => {
               formats={["auto", "webp", "avif"]}
               alt="Shop"
               height={75}
+              className="w-full h-auto"
             />
           </Link>
         </div>
