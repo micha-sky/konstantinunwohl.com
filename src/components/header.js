@@ -15,12 +15,13 @@ const Header = () => {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="Konstantin Unwohl"
+            className="w-full max-w-[200px] sm:max-w-[250px]"
           />
         </Link>
       </div>
 
       <div className="flex justify-center">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 w-full max-w-4xl">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-2 sm:gap-4 w-full max-w-4xl">
           <Link to="/musik" className="text-sm no-underline block">
             <StaticImage
               src="../images/musik.png"
@@ -30,7 +31,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Musik"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
           <Link to="/lyrics" className="text-sm no-underline block">
@@ -42,7 +43,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Lyrics"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
           <Link to="/kontakt" className="text-sm no-underline block">
@@ -54,7 +55,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Kontakt"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
           <Link to="/konzerte" className="text-sm no-underline block">
@@ -66,7 +67,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Konzerte"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
           <Link to="/videos" className="text-sm no-underline block">
@@ -78,7 +79,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Videos"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
           <Link
@@ -93,7 +94,7 @@ const Header = () => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Shop"
-              className="w-full h-auto"
+              className="w-full h-auto max-w-[100px] sm:max-w-[125px] md:max-w-[150px]"
             />
           </Link>
         </div>
