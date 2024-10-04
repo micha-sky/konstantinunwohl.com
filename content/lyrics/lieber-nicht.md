@@ -1,9 +1,8 @@
 ---
-title: "ich würd lieber nicht"
-date: "2023-05-22"
+title: "Lieber"
+date: "2024-08-06T22:12:03.284Z"
 image: "lieber.jpg"
 ---
-
 ## 1. Mein Verstand
 Ich hab ein komisches Gefühl im Bauch
 

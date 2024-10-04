@@ -1,6 +1,6 @@
 ---
 title: "Ich gehe"
-date: "2023-05-22"
+date: "2024-08-06T22:12:03.284Z"
 image: "ichgehe.jpg"
 ---
 ![ichgehe.jpg](ichgehe.jpg)
