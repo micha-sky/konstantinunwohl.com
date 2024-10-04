@@ -3,7 +3,6 @@ title: "Ich ging vier mal spazieren"
 date: "2024-08-06T22:12:03.284Z"
 image: "ginge.jpg"
 ---
-![ginge.jpg](ginge.jpg)
 ## 1. Ich wollte mal nach Trier
 Ich war schon öfter in Berlin
 

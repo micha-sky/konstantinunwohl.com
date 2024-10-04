@@ -4,7 +4,6 @@ date: "2024-08-06T22:12:03.284Z"
 image: "institut.jpg"
 ---
 
-![institut.jpg](institut.jpg)
 ## 1. Der Duft des Roggens
 mit immer größer Unlust
 

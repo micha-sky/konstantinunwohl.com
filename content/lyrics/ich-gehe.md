@@ -3,7 +3,6 @@ title: "Ich gehe"
 date: "2024-08-06T22:12:03.284Z"
 image: "ichgehe.jpg"
 ---
-![ichgehe.jpg](ichgehe.jpg)
 ## 1. Hospital
 wir waren temporär
 
