@@ -1,7 +1,7 @@
 ---
 title: "Institut"
 date: "2023-05-22"
-image: "../images/musik/institut.jpg"
+image: "institut.jpg"
 ---
 
 ![institut.jpg](institut.jpg)
