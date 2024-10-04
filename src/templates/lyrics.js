@@ -1,113 +1,64 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
-const LyricsTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
-  location,
-}) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+const LyricTemplate = ({ data }) => {
+  const { markdownRemark } = data
+  const { frontmatter, html } = markdownRemark
+
+  // Parse the HTML to extract track titles
+  const parser = new DOMParser()
+  const doc = parser.parseFromString(html, "text/html")
+  const trackTitles = Array.from(doc.querySelectorAll("h2")).map(h2 => ({
+    title: h2.textContent,
+    id: h2.textContent.toLowerCase().replace(/\s+/g, "-"),
+  }))
+
+  // Function to scroll to a specific track
+  const scrollToTrack = id => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
+  // Modify the HTML to add ids to each track section
+  const modifiedHtml = html.replace(/<h2>(.*?)<\/h2>/g, (match, p1) => {
+    const id = p1.toLowerCase().replace(/\s+/g, "-")
+    return `<h2 id="${id}">${p1}</h2>`
+  })
 
   return (
-    <React.Fragment>
-      <Layout location={location} title={siteTitle}>
-        <div className={styles.textCenter}>
-          <article
-            className="blog-post"
-            itemScope
-            itemType="http://schema.org/Article"
-          >
-            <header>
-              <h1 itemProp="headline">{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
-            </header>
-            <section
-              dangerouslySetInnerHTML={{ __html: post.html }}
-              itemProp="articleBody"
-            />
-            <hr />
-            <footer></footer>
-          </article>
-          <nav className="blog-post-nav">
-            <ul
-              style={{
-                display: `flex`,
-                flexWrap: `wrap`,
-                justifyContent: `space-between`,
-                listStyle: `none`,
-                padding: 0,
-              }}
-            >
-              <li>
-                {previous && (
-                  <Link to={previous.fields.slug} rel="prev">
-                    ← {previous.frontmatter.title}
-                  </Link>
-                )}
-              </li>
-              <li>
-                {next && (
-                  <Link to={next.fields.slug} rel="next">
-                    {next.frontmatter.title} →
-                  </Link>
-                )}
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </Layout>
-    </React.Fragment>
+    <Layout>
+      <h1>{frontmatter.title}</h1>
+      <ul>
+        {trackTitles.map((track, index) => (
+          <li key={index}>
+            <button onClick={() => scrollToTrack(track.id)}>
+              {track.title}
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      <div dangerouslySetInnerHTML={{ __html: modifiedHtml }} />
+    </Layout>
   )
 }
 
-export const Head = ({ data: { markdownRemark: post } }) => {
-  return (
-    <Seo
-      title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
-    />
-  )
-}
+export const Head = ({ data }) => (
+  <Seo title={data.markdownRemark.frontmatter.title} />
+)
 
-export default LyricsTemplate
+export default LyricTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
+  query ($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
-      excerpt(pruneLength: 160)
       html
       frontmatter {
-        title
         date(formatString: "MMMM DD, YYYY")
-        description
-      }
-    }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
-    }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
         title
       }
     }

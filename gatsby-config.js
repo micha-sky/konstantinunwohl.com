@@ -17,7 +17,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
-    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,11 +25,13 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-robots-txt",
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        host: "https://unwohl.com",
-        sitemap: "https://unwohl.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
+        output: `/sitemap.xml`,
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: ["/Archiv/*", `/path/to/page`],
       },
     },
     {
