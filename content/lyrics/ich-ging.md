@@ -1,6 +1,6 @@
 ---
 title: "Ich ging vier mal spazieren"
-date: "2024-08-06T22:12:03.284Z"
+date: "2016-08-16T22:12:03.284Z"
 image: "ginge.jpg"
 ---
 ## 1. Ich wollte mal nach Trier

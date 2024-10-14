@@ -1,6 +1,6 @@
 ---
-title: "Institut"
-date: "2024-08-06T22:12:03.284Z"
+title: "Im Institut für Strömungstechnik"
+date: "2021-01-15T22:12:03.284Z"
 image: "institut.jpg"
 ---
 

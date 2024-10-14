@@ -1,23 +1,16 @@
 ---
 title: "Ich gehe"
-date: "2024-08-06T22:12:03.284Z"
+date: "2017-10-20T22:12:03.284Z"
 image: "ichgehe.jpg"
 ---
 ## 1. Hospital
 wir waren temporär
-
 auf der gleichen Station
-
 die Krankenschwester sagt es mir
-
 und sieht auf den Boden
-
 du bist übern Berg
-
 und ich bleibe hier wohnen
-
 du hast dich auskuriert
-
 ich ahnte es schon
 
   

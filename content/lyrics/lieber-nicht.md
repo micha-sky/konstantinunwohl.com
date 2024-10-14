@@ -1,39 +1,26 @@
 ---
-title: "Lieber"
-date: "2024-08-06T22:12:03.284Z"
+title: "Ich würd lieber nicht"
+date: "2018-09-22T22:12:03.284Z"
 image: "lieber.jpg"
 ---
 ## 1. Mein Verstand
 Ich hab ein komisches Gefühl im Bauch
-
 es steigt mir in den Kopf
-
 mein Verstand, mein Verstand, mein Verstand
-
 es ist die Dämmerung, Erniedrigung
-
 und darauffolgende Dunkelheit
-
 ich bin zwar sicher schon nah dran
-
 doch immer noch nicht ganz so weit
 
   
 
 es suchen mich Dämonen heim
-
 dies wirklich heut nicht braucht
-
 alles wirkt so eigenartig
-
 alles wirkt wie ausgetauscht
-
 alle meine Freuden
-
 verließen mich bereits
-
 bin mit allem einverstanden
-
 nur wohin mit meinem Geist
 
   

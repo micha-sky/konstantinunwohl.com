@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Konstantin Unwohl`,
-    description: `Konstantin Unwohl is a musician and artist based in Hamburg.`,
+    description: `fürchte nicht den Tod, sondern die Sprache`,
     author: `@michalsky`,
     siteUrl: `https://unwohl.com`,
   },
