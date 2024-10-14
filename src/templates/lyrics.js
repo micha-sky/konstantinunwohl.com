@@ -1,113 +1,89 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 
-const LyricsTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
-  location,
-}) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+const LyricTemplate = ({ data }) => {
+  const { markdownRemark } = data
+  const { frontmatter, html } = markdownRemark
+
+  // Create state for track titles and modified HTML
+  const [trackTitles, setTrackTitles] = React.useState([])
+  const [modifiedHtml, setModifiedHtml] = React.useState(html)
+
+  // Run DOM parsing only on the client side inside useEffect
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      const parser = new DOMParser()
+      const doc = parser.parseFromString(html, "text/html")
+
+      const extractedTrackTitles = Array.from(doc.querySelectorAll("h2")).map(
+        h2 => ({
+          title: h2.textContent,
+          id: h2.textContent.toLowerCase().replace(/\s+/g, "-"),
+        })
+      )
+      setTrackTitles(extractedTrackTitles)
+
+      const updatedHtml = html.replace(/<h2>(.*?)<\/h2>/g, (match, p1) => {
+        const id = p1.toLowerCase().replace(/\s+/g, "-")
+        return `<h2 class="text-2xl" id="${id}">${p1}</h2>`
+      })
+      setModifiedHtml(updatedHtml)
+    }
+  }, [html])
+
+  // Function to scroll to a specific track
+  const scrollToTrack = id => {
+    if (typeof window !== "undefined") {
+      const element = document.getElementById(id)
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" })
+      }
+    }
+  }
 
   return (
-    <React.Fragment>
-      <Layout location={location} title={siteTitle}>
-        <div className={styles.textCenter}>
-          <article
-            className="blog-post"
-            itemScope
-            itemType="http://schema.org/Article"
-          >
-            <header>
-              <h1 itemProp="headline">{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
-            </header>
-            <section
-              dangerouslySetInnerHTML={{ __html: post.html }}
-              itemProp="articleBody"
-            />
-            <hr />
-            <footer></footer>
-          </article>
-          <nav className="blog-post-nav">
-            <ul
-              style={{
-                display: `flex`,
-                flexWrap: `wrap`,
-                justifyContent: `space-between`,
-                listStyle: `none`,
-                padding: 0,
-              }}
+    <Layout>
+      <h1 className="text-4xl font-bold text-center my-6">
+        {frontmatter.title}
+      </h1>
+
+      {/* Track list with scroll buttons */}
+      <ul className="flex flex-col  space-y-4 mb-10">
+        {trackTitles.map((track, index) => (
+          <li key={index}>
+            <button
+              onClick={() => scrollToTrack(track.id)}
+              className="px-4 py-2 bg-blue-500 text-black rounded-lg shadow-md hover:bg-blue-600 focus:outline-none"
             >
-              <li>
-                {previous && (
-                  <Link to={previous.fields.slug} rel="prev">
-                    ← {previous.frontmatter.title}
-                  </Link>
-                )}
-              </li>
-              <li>
-                {next && (
-                  <Link to={next.fields.slug} rel="next">
-                    {next.frontmatter.title} →
-                  </Link>
-                )}
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </Layout>
-    </React.Fragment>
+              {track.title}
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      {/* Lyrics content with modified HTML */}
+      <div
+        className="prose prose-lg prose-blue max-w-none mx-auto"
+        dangerouslySetInnerHTML={{ __html: modifiedHtml }}
+      />
+    </Layout>
   )
 }
 
-export const Head = ({ data: { markdownRemark: post } }) => {
-  return (
-    <Seo
-      title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
-    />
-  )
-}
+export const Head = ({ data }) => (
+  <Seo title={data.markdownRemark.frontmatter.title} />
+)
 
-export default LyricsTemplate
+export default LyricTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
-    $id: String!
-    $previousPostId: String
-    $nextPostId: String
-  ) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
+  query ($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
-      excerpt(pruneLength: 160)
       html
       frontmatter {
-        title
         date(formatString: "MMMM DD, YYYY")
-        description
-      }
-    }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
-    }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
         title
       }
     }
