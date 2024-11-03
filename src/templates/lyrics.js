@@ -3,12 +3,37 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
+import { useEffect, useState } from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const LyricTemplate = ({ data: { site, markdownRemark: post }, location }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const [trackTitles, setTrackTitles] = React.useState([])
   const [modifiedHtml, setModifiedHtml] = React.useState(post.html)
+  const [isVisible, setIsVisible] = useState(false)
 
+  // Show button when page is scrolled down
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 350) {
+      setIsVisible(true)
+    } else {
+      setIsVisible(false)
+    }
+  }
+
+  // Scroll to top smooth
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility)
+    return () => window.removeEventListener("scroll", toggleVisibility)
+  }, [])
   React.useEffect(() => {
     if (typeof window !== "undefined") {
       const parser = new DOMParser()
@@ -66,6 +91,7 @@ const LyricTemplate = ({ data: { site, markdownRemark: post }, location }) => {
                 <button
                   onClick={() => scrollToTrack(track.id)}
                   className="track-button"
+                  style={{ textDecoration: "underline" }}
                 >
                   <p>{track.title}</p>
                 </button>
@@ -83,6 +109,18 @@ const LyricTemplate = ({ data: { site, markdownRemark: post }, location }) => {
           <footer></footer>
         </article>
       </div>
+      {isVisible && (
+        <div
+          onClick={scrollToTop}
+          onKeyDown={scrollToTop}
+          role="button"
+          tabIndex={0}
+          className="fixed bottom-1/2 left-5 cursor-pointer text-gray-500"
+        >
+          go up
+          <FontAwesomeIcon icon={faArrowUp} />
+        </div>
+      )}
     </Layout>
   )
 }
