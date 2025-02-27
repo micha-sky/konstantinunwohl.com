@@ -92,6 +92,44 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: `/lyrics${slug}`,
+    })
+  }
+}
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions
+  const result = await graphql(`
+    query {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/lyrics/" } }) {
+        nodes {
+          id
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  result.data.allMarkdownRemark.nodes.forEach(node => {
+    createPage({
+      path: node.fields.slug,
+      component: path.resolve(`./src/templates/lyrics.js`),
+      context: {
+        id: node.id,
+      },
+    })
+  })
+}
+
 /**
  * @type {import('gatsby').GatsbyNode['createSchemaCustomization']}
  */
@@ -133,7 +171,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       date: Date @dateformat
       tags: [String]
-
+      image: File @fileByRelativePath
     }
 
     type Fields {
