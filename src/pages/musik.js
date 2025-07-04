@@ -14,6 +14,53 @@ const Musik = ({ data }) => {
       <Layout>
         <div className={styles.textCenter}>
           <div className="sm:grid-cols-1 md:grid-cols-3 grid">
+    <Link
+              to="https://konstantinunwohl.bandcamp.com/album/livre-des-images-soundtrack"
+              className="text-sm no-underline mb-3"
+            >
+              <StaticImage
+                src="../images/musik/livre.jpg"
+                loading="lazy"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="Ich gehe"
+                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+              />
+              <div className="text-center mt-4 font-bold">
+                Livre des Images (Soundtrack)
+              </div>
+            </Link>
+    <Link
+              to="https://konstantinunwohl.bandcamp.com/album/neuer-wall"
+              className="text-sm no-underline mb-3"
+            >
+              <StaticImage
+                src="../images/musik/nw.jpg"
+                loading="lazy"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="Ich gehe"
+                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+              />
+              <div className="text-center mt-4 font-bold">
+                Neuer Wall
+            </Link>
+    <Link
+              to="https://konstantinunwohl.bandcamp.com/track/ich-hass-es-wenn-man-spa-hat-single-edit"
+              className="text-sm no-underline mb-3"
+            >
+              <StaticImage
+                src="../images/musik/spass.jpg"
+                loading="lazy"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="Ich gehe"
+                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+              />
+              <div className="text-center mt-4 font-bold">
+                Ich hass es, wenn man Spaß hat (Single Edit)
+              </div>
+            </Link>
             <Link
               to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik-remixed"
               className="text-sm no-underline mb-3"
