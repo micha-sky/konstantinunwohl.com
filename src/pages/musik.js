@@ -42,9 +42,9 @@ const Musik = ({ data }) => {
                 alt="Ich gehe"
                 className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
               />
-              <div className="text-center mt-4 font-bold">
+              <p className="text-center mt-4 font-bold">
                 Neuer Wall
-              </div>    
+              </p>    
             </Link>
             <Link
               to="https://konstantinunwohl.bandcamp.com/track/ich-hass-es-wenn-man-spa-hat-single-edit"
@@ -58,9 +58,9 @@ const Musik = ({ data }) => {
                 alt="Ich gehe"
                 className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
               />
-              <div className="text-center mt-4 font-bold">
+              <p className="text-center mt-4 font-bold">
                 Ich hass es, wenn man Spaß hat (Single Edit)
-              </div>
+              </p>
             </Link>
             <Link
               to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik-remixed"
@@ -74,9 +74,9 @@ const Musik = ({ data }) => {
                 alt="Ich gehe"
                 className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
               />
-              <div className="text-center mt-4 font-bold">
+              <p className="text-center mt-4 font-bold">
                 Im Institut für Strömungstechnik Remixed
-              </div>
+              </p>
             </Link>
             <Link
               to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
