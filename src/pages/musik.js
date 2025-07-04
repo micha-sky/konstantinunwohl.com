@@ -14,7 +14,7 @@ const Musik = ({ data }) => {
       <Layout>
         <div className={styles.textCenter}>
           <div className="sm:grid-cols-1 md:grid-cols-3 grid">
-    <Link
+            <Link
               to="https://konstantinunwohl.bandcamp.com/album/livre-des-images-soundtrack"
               className="text-sm no-underline mb-3"
             >
@@ -30,7 +30,7 @@ const Musik = ({ data }) => {
                 Livre des Images (Soundtrack)
               </div>
             </Link>
-    <Link
+            <Link
               to="https://konstantinunwohl.bandcamp.com/album/neuer-wall"
               className="text-sm no-underline mb-3"
             >
@@ -44,8 +44,9 @@ const Musik = ({ data }) => {
               />
               <div className="text-center mt-4 font-bold">
                 Neuer Wall
+              </div>    
             </Link>
-    <Link
+            <Link
               to="https://konstantinunwohl.bandcamp.com/track/ich-hass-es-wenn-man-spa-hat-single-edit"
               className="text-sm no-underline mb-3"
             >
