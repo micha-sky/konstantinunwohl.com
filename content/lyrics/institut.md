@@ -117,7 +117,7 @@ so müde
 
   
 
-# 2. Dissoziation Dreiundzwanzig
+## 2. Dissoziation Dreiundzwanzig
 ich sah mich erst im Spiegel an
 
 und wusst nicht, was ich sah
@@ -202,7 +202,7 @@ er sah mir dabei zu
 
 wie ich mir selbst zum Fremden ward
 
-# 3. Ich wollte nie Museumsbauer werden
+## 3. Ich wollte nie Museumsbauer werden
 es ist Zeit
 
 du sitzt und sahst dir Männer an, zu lang
@@ -302,7 +302,7 @@ ich wollte nie Museumsbauer sein, oh no
 
   
 
-# 4. Ein Gewitter zieht auf
+## 4. Ein Gewitter zieht auf
 Es ist die letzte Zigarette,
 
 bitte dreh sie schnell
@@ -420,7 +420,7 @@ Tage und Nächte, alles vertan
 
 nicht jetzt ist die Zeit, sondern das, was mal war.
 
-# 5. Amarillo
+## 5. Amarillo
 um halb 9 in der Früh
 
 und wir liefen im Gleichschritt
@@ -527,7 +527,7 @@ amarillo amarillo
 
 und nur du tust ihm ebenso
 
-# 6. In Rom
+## 6. In Rom
 Am Piazza deines Lebens
 
 ja da wartest du vergebens
@@ -642,7 +642,7 @@ rücksichtslos
 
   
 
-# 7. Experimente mit Auftrieb
+## 7. Experimente mit Auftrieb
 ich sah so lange in den Spiegel, dass ich frieren begann
 
 wenn das Weltgetriebe mahlt, hält man sich besser auf Distanz
