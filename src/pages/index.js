@@ -6,13 +6,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const IndexPage = ({ data, location }) => {
-  const siteTitle = `Title`
+const IndexPage = ({ location }) => {
   const posts = useStaticQuery(graphql`
     {
       allMarkdownRemark(
         sort: { frontmatter: { date: DESC } }
-        filter: { fileAbsolutePath: { regex: "/blog/" } }
+        filter: { fields: { collection: { eq: "blog" } } }
       ) {
         nodes {
           html
@@ -30,7 +29,7 @@ const IndexPage = ({ data, location }) => {
   `).allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location}>
       <div className={styles.textCenter + " flex justify-center"}>
         <ol
           style={{ listStyle: `none` }}

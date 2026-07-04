@@ -41,7 +41,6 @@ const Konzerte = ({ data }) => {
             data-remind-me="off"
             style={{ display: "none" }}
           ></a>
-          <script src="//widget-app.songkick.com/injector/9405399"></script>
         </div>
 
         <Link

@@ -71,7 +71,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
 export default KonzerteTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
+  query KonzertePostBySlug(
     $id: String!
     $previousPostId: String
     $nextPostId: String

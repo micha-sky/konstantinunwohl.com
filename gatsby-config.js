@@ -11,7 +11,9 @@ module.exports = {
   siteMetadata: {
     title: `Konstantin Unwohl`,
     description: `fürchte nicht den Tod, sondern die Sprache`,
-    author: `@michalsky`,
+    author: {
+      name: `@michalsky`,
+    },
     siteUrl: `https://unwohl.com`,
   },
   plugins: [
@@ -24,14 +26,13 @@ module.exports = {
         name: `blog`,
       },
     },
+    `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
-        output: `/sitemap.xml`,
-        // Exclude specific pages or groups of pages using glob parameters
-        // See: https://github.com/isaacs/minimatch
-        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
-        exclude: ["/Archiv/*", `/path/to/page`],
+        host: `https://unwohl.com`,
+        sitemap: `https://unwohl.com/sitemap-index.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
     {
@@ -142,6 +143,7 @@ module.exports = {
                   frontmatter {
                     title
                     date
+                    tags
                   }
                 }
               }
@@ -155,8 +157,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Konstantin Unwohl`,
+        short_name: `Unwohl`,
         start_url: `/`,
 
         // This will impact how browsers show your PWA/website

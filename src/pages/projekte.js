@@ -14,6 +14,6 @@ const Projekte = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Konzerte" />
+export const Head = () => <Seo title="Projekte" />
 
 export default Projekte

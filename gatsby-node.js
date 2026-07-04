@@ -7,17 +7,43 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-// Define the template for blog post
-const blogPost = path.resolve(`./src/templates/blog-post.js`)
-const lyricsTemplate = path.resolve(`./src/templates/lyrics.js`)
-const konzerteTemplate = path.resolve(`./src/templates/konzerte.js`)
+// Templates per content collection (content/blog, content/konzerte, content/lyrics)
+const templates = {
+  blog: path.resolve(`./src/templates/blog-post.js`),
+  konzerte: path.resolve(`./src/templates/konzerte.js`),
+  lyrics: path.resolve(`./src/templates/lyrics.js`),
+}
+
+/**
+ * @type {import('gatsby').GatsbyNode['onCreateNode']}
+ */
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `MarkdownRemark`) {
+    // "blog" | "konzerte" | "lyrics" — set in gatsby-config.js
+    const collection = getNode(node.parent).sourceInstanceName
+    const filePath = createFilePath({ node, getNode })
+
+    createNodeField({
+      node,
+      name: `slug`,
+      value: `/${collection}${filePath}`,
+    })
+    createNodeField({
+      node,
+      name: `collection`,
+      value: collection,
+    })
+  }
+}
+
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  // Get all markdown blog posts sorted by date
   const result = await graphql(`
     {
       allMarkdownRemark(sort: { frontmatter: { date: ASC } }, limit: 1000) {
@@ -25,8 +51,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id
           fields {
             slug
+            collection
           }
-          fileAbsolutePath
         }
       }
     }
@@ -34,37 +60,25 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (result.errors) {
     reporter.panicOnBuild(
-      `There was an error loading your blog posts`,
+      `There was an error loading your markdown content`,
       result.errors
     )
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
+  const nodes = result.data.allMarkdownRemark.nodes
 
-  // Create blog posts pages
-  // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
-  // `context` is available in the template as a prop and as a variable in GraphQL
+  // Create pages per collection so previous/next links stay within it
+  for (const collection of Object.keys(templates)) {
+    const posts = nodes.filter(node => node.fields.collection === collection)
 
-  if (posts.length > 0) {
     posts.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
-      let template
-      if (post.fileAbsolutePath.includes("/lyrics/")) {
-        template = lyricsTemplate
-        post.type = "lyrics"
-      } else if (post.fileAbsolutePath.includes("/konzerte/")) {
-        template = konzerteTemplate
-        post.type = "konzerte"
-      } else {
-        template = blogPost
-      }
-
       createPage({
         path: post.fields.slug,
-        component: template,
+        component: templates[collection],
         context: {
           id: post.id,
           previousPostId,
@@ -73,61 +87,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
-}
-
-/**
- * @type {import('gatsby').GatsbyNode['onCreateNode']}
- */
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
-}
-
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
-    createNodeField({
-      node,
-      name: `slug`,
-      value: `/lyrics${slug}`,
-    })
-  }
-}
-
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions
-  const result = await graphql(`
-    query {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/lyrics/" } }) {
-        nodes {
-          id
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  `)
-
-  result.data.allMarkdownRemark.nodes.forEach(node => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/lyrics.js`),
-      context: {
-        id: node.id,
-      },
-    })
-  })
 }
 
 /**
@@ -157,7 +116,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Social {
       twitter: String
       instagram: String
-     
     }
 
     type MarkdownRemark implements Node {
@@ -176,6 +134,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Fields {
       slug: String
+      collection: String
     }
   `)
 }

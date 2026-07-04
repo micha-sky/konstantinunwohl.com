@@ -1,211 +1,203 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { ThemeContext } from "../components/theme-context"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const Musik = ({ data }) => {
-  const theme = React.useContext(ThemeContext)
+const Musik = () => {
   return (
-    <div data-theme={theme}>
-      <Layout>
-        <div className={styles.textCenter}>
-          <div className="sm:grid-cols-1 md:grid-cols-3 grid">
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/livre-des-images-soundtrack"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/livre.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
-              />
-              <div className="text-center mt-4 font-bold">
-                Livre des Images (Soundtrack)
-              </div>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/neuer-wall"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/nw.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
-              />
-              <p className="text-center mt-4 font-bold">
-                Neuer Wall
-              </p>    
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/track/ich-hass-es-wenn-man-spa-hat-single-edit"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/spass.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
-              />
-              <p className="text-center mt-4 font-bold">
-                Ich hass es, wenn man Spaß hat (Single Edit)
-              </p>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik-remixed"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/remixes.png"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
-              />
-              <p className="text-center mt-4 font-bold">
-                Im Institut für Strömungstechnik Remixed
-              </p>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/wagen.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <p className="text-center mt-4 font-bold">
-                Hoch auf dem gelben Wagen (Single Edit)
-              </p>
-            </Link>
-            <Link
-              to="https://ernstlabel.bandcamp.com/album/nicht-dein-ernst"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/ernst.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <p className="text-center mt-4 font-bold">
-                Ernst Leben - Nicht dein Ernst
-              </p>
-            </Link>
-             <Link
-              to="https://luxrec.bandcamp.com/album/mrt009-ehre"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/ehre.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <p className="text-center mt-4 font-bold">
-                Acid Ernst - Ehre
-              </p>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/institut.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <div className="text-center mt-4 font-bold">
-                Im Institut für Strömungstechnik
-              </div>
-            </Link>
-            <Link
-              to="https://ernstlabel.bandcamp.com/album/bald-wirds-ernst"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/bald.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <div className="text-center mt-4 font-bold">Ernst Leben - Bald wirds ernst</div>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/ich-w-rd-lieber-nicht"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/lieber.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <p className="text-center mt-4 font-bold">
-                Ich Würd Lieber Nicht{" "}
-              </p>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/ich-gehe"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/ichgehe.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich gehe"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <div className="text-center mt-4 font-bold">Ich gehe</div>
-            </Link>
-            <Link
-              to="https://konstantinunwohl.bandcamp.com/album/ich-ging-vier-mal-spatieren"
-              className="text-sm no-underline mb-3"
-            >
-              <StaticImage
-                src="../images/musik/ginge.jpg"
-                loading="lazy"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="Ich ginge vier mal spazieren"
-                className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
-              />
-              <div className="text-center mt-4 font-bold">
-                Ich ginge vier mal spazieren
-              </div>
-            </Link>
-          </div>
+    <Layout>
+      <div className={styles.textCenter}>
+        <div className="sm:grid-cols-1 md:grid-cols-3 grid">
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/livre-des-images-soundtrack"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/livre.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Livre des Images (Soundtrack)"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+            />
+            <div className="text-center mt-4 font-bold">
+              Livre des Images (Soundtrack)
+            </div>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/neuer-wall"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/nw.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Neuer Wall"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+            />
+            <p className="text-center mt-4 font-bold">Neuer Wall</p>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/track/ich-hass-es-wenn-man-spa-hat-single-edit"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/spass.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ich hass es, wenn man Spaß hat (Single Edit)"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+            />
+            <p className="text-center mt-4 font-bold">
+              Ich hass es, wenn man Spaß hat (Single Edit)
+            </p>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik-remixed"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/remixes.png"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Im Institut für Strömungstechnik Remixed"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50 "
+            />
+            <p className="text-center mt-4 font-bold">
+              Im Institut für Strömungstechnik Remixed
+            </p>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/track/hoch-auf-dem-gelben-wagen-single-edit"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/wagen.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Hoch auf dem gelben Wagen (Single Edit)"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <p className="text-center mt-4 font-bold">
+              Hoch auf dem gelben Wagen (Single Edit)
+            </p>
+          </Link>
+          <Link
+            to="https://ernstlabel.bandcamp.com/album/nicht-dein-ernst"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/ernst.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ernst Leben - Nicht dein Ernst"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <p className="text-center mt-4 font-bold">
+              Ernst Leben - Nicht dein Ernst
+            </p>
+          </Link>
+          <Link
+            to="https://luxrec.bandcamp.com/album/mrt009-ehre"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/ehre.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Acid Ernst - Ehre"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <p className="text-center mt-4 font-bold">Acid Ernst - Ehre</p>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/im-institut-f-r-str-mungstechnik"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/institut.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Im Institut für Strömungstechnik"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <div className="text-center mt-4 font-bold">
+              Im Institut für Strömungstechnik
+            </div>
+          </Link>
+          <Link
+            to="https://ernstlabel.bandcamp.com/album/bald-wirds-ernst"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/bald.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ernst Leben - Bald wirds ernst"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <div className="text-center mt-4 font-bold">
+              Ernst Leben - Bald wirds ernst
+            </div>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/ich-w-rd-lieber-nicht"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/lieber.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ich Würd Lieber Nicht"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <p className="text-center mt-4 font-bold">Ich Würd Lieber Nicht </p>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/ich-gehe"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/ichgehe.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ich gehe"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <div className="text-center mt-4 font-bold">Ich gehe</div>
+          </Link>
+          <Link
+            to="https://konstantinunwohl.bandcamp.com/album/ich-ging-vier-mal-spatieren"
+            className="text-sm no-underline mb-3"
+          >
+            <StaticImage
+              src="../images/musik/ginge.jpg"
+              loading="lazy"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Ich ginge vier mal spazieren"
+              className="w-48 sm:w-48 md:w-36 lg:w-48 2xl:w-50"
+            />
+            <div className="text-center mt-4 font-bold">
+              Ich ginge vier mal spazieren
+            </div>
+          </Link>
         </div>
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   )
 }
 

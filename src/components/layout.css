@@ -4,10 +4,10 @@
   --color-primary: #000000;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
-  --font-sans:  "ErikasBuero", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  --font-mono: "ErikasBuero", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  --font-sans: "ErikasBuero", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: "ErikasBuero", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   --font-lg: 20px;
   --font-md: 18px;
   --font-sm: 16px;
@@ -24,14 +24,8 @@
   --size-content: 54rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
-
-  --color-background: white;
 }
 
-[data-theme="dark"] {
-  --color-background: black;
-  --color-text: white;
-}
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
@@ -219,15 +213,14 @@ pre tt:after {
 }
 
 @font-face {
-  font-family: 'ErikasBuero';
-  src: url('../fonts/ErikasBuero.ttf') format('truetype');
+  font-family: "ErikasBuero";
+  src: url("../fonts/ErikasBuero.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'ErikasBueroBold';
-  src: url('../fonts/ErikasBueroBold.ttf') format('truetype');
+  font-family: "ErikasBueroBold";
+  src: url("../fonts/ErikasBueroBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-

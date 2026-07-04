@@ -56,9 +56,7 @@ ich sah ein Bild von uns sich drehen
 es war wellig und verblasst
 
 und im Spiegel meiner
-Waschmaschine<span class="Apple-converted-space"> </span>
-
-hat es mich gepackt
+Waschmaschine hat es mich gepackt
 
 es machte Klick Klack Klick Klack Klack
 
@@ -150,9 +148,7 @@ verfremdet vertraut
   
 
 und aus dem Schaum des wehenden
-Meeres<span class="Apple-converted-space"> </span>
-
-entsteigt langsam die Chimäre
+Meeres entsteigt langsam die Chimäre
 
 und sie fletscht ihre Zähne
 
