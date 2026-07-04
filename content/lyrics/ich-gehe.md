@@ -31,9 +31,7 @@ ich glaub es ihr nicht
 
   
 
-es ist sechs Uhr Morgens<span class="Apple-converted-space"> </span>
-
-und dein Bett hier bleibt leer
+es ist sechs Uhr Morgens und dein Bett hier bleibt leer
 
 es fällt mir schwer zu schlafen
 
@@ -118,9 +116,7 @@ ich wurde geboren auf einem Schiff
 
 und seitdem treib ich dahin
 
-meine Mutter war die Sonne<span class="Apple-converted-space"> </span>
-
-und sie schuf dieses Kind
+meine Mutter war die Sonne und sie schuf dieses Kind
 
 meine Mutter war die Sonne
 
@@ -204,9 +200,7 @@ und ich quälte mich beim Wellengang
 
 die See sie war nicht lieb mit mir
 
-da alles was ich je verstand<span class="Apple-converted-space"> </span>
-
-mit einem Hieb in ihrem Schlund versank
+da alles was ich je verstand mit einem Hieb in ihrem Schlund versank
 
   
 
@@ -239,13 +233,9 @@ dass es immer noch weh tut
 ## 3. W Warszawie
 Puławska
 
-<span class="s1">Świętokrzyska</span>
+Świętokrzyska
 
-<span class="s1">uniwersyteyt<span class="Apple-converted-space"> </span></span>
-
-<span class="s1"></span>  
-
-Puławska fünf Minuten
+uniwersyteyt Puławska fünf Minuten
 
 die Bäume auf dem Weg sehen traurig aus
 
@@ -253,32 +243,30 @@ Wilanowska zehn Minuten
 
 wie Blätter auf nem nassen schweren Ast
 
-<span class="s1">Świętokrzyska fünf Minuten</span>
+Świętokrzyska fünf Minuten
 
-<span class="s1">ich verpass jedes mal die gleiche Bahn</span>
+ich verpass jedes mal die gleiche Bahn
 
-<span class="s1">Uniwersyteyt und endlich draußen</span>
+Uniwersyteyt und endlich draußen
 
-<span class="s1">hier nehme ich jeden eurer Flyer an</span>
+hier nehme ich jeden eurer Flyer an
 
-<span class="s1">chwileczkę und wieder rückwärts</span>
+chwileczkę und wieder rückwärts
 
-<span class="s1">geht man langsam die neue Welt entlang</span>
+geht man langsam die neue Welt entlang
 
-<span class="s1">und ist man irgendwo angelangt</span>
+und ist man irgendwo angelangt
 
-<span class="s1">dann fängt alles wieder von vorne an</span>
+dann fängt alles wieder von vorne an
 
-<span class="s1"></span>  
+  
 
-<span class="s1">mówiłeś wszystko będzie lepsze w
-warszawie,<span class="Apple-converted-space"> </span></span>
+mówiłeś wszystko będzie lepsze w
+warszawie, rzekłeś chodzą coś się z mnię w warszawie
 
-<span class="s1">rzekłeś chodzą coś się z mnię w warszawie</span>
+mówiłeś wszystko będzie lepsze w warszawie
 
-<span class="s1">mówiłeś wszystko będzie lepsze w warszawie</span>
-
-<span class="s1"></span>  
+  
 
 Puławska fünf Minuten
 
@@ -288,23 +276,23 @@ Wilanowska zehn Minuten
 
 den Menschen macht nichts von den Stationen aus
 
-<span class="s1">Świętokrzyska fünf Minuten</span>
+Świętokrzyska fünf Minuten
 
-<span class="s1">ich verpass jedes Mal die gleiche Bahn</span>
+ich verpass jedes Mal die gleiche Bahn
 
-<span class="s1">Uniwersyteyt und wieder draußen</span>
+Uniwersyteyt und wieder draußen
 
-<span class="s1">die Routine verschluckt einen jeden Tag</span>
+die Routine verschluckt einen jeden Tag
 
-<span class="s1"></span>  
+  
 
-<span class="s1">und so geht man die neue Welt entlang</span>
+und so geht man die neue Welt entlang
 
-<span class="s1">und man dachte sich, man sei wo angelangt</span>
+und man dachte sich, man sei wo angelangt
 
-<span class="s1">aber eigentlich fängt alles nur von vorne an</span>
+aber eigentlich fängt alles nur von vorne an
 
-<span class="s1">von vorne an von vorne</span>
+von vorne an von vorne
 
 ## 4. Mein Verstand
 Ich hab ein komisches Gefühl im Bauch
@@ -372,9 +360,7 @@ ich sah ein Bild von uns sich drehen
 es war wellig und verblasst
 
 und im Spiegel meiner
-Waschmaschine<span class="Apple-converted-space"> </span>
-
-hat es mich gepackt
+Waschmaschine hat es mich gepackt
 
 es machte Klick Klack Klick Klack Klack
 
@@ -498,9 +484,7 @@ ich verstehe
   
 
 deine Lippen formen sich nicht
-mehr<span class="Apple-converted-space"> </span>
-
-so wie ich sie sonst schätze
+mehr so wie ich sie sonst schätze
 
 die Situation ist gar nicht so
 

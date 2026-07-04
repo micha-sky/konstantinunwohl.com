@@ -6,6 +6,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "../components/lyrics.css"
 
 const LyricTemplate = ({ data: { site, markdownRemark: post }, location }) => {
   const siteTitle = site.siteMetadata?.title || `Title`

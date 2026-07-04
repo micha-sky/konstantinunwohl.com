@@ -76,7 +76,7 @@ const Kontakt = () => (
         <FontAwesomeIcon icon={faInstagram} />
       </a>
       <a
-        href="https://bandcamp.com/konstantinunwohl"
+        href="https://konstantinunwohl.bandcamp.com"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -90,13 +90,6 @@ const Kontakt = () => (
         <FontAwesomeIcon icon={faFacebook} />
       </a>
 
-      <a
-        href="https://www.youtube.com/your_username"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faYoutube} />
-      </a>
       <a
         href="https://open.spotify.com/artist/1paiVvuz7pRxsb3tTkJOSd"
         target="_blank"

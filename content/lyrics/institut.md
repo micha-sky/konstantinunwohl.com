@@ -49,11 +49,7 @@ unter dem Laken
 
 der verdeckte kopf
 
-ah Tatiana<span class="Apple-converted-space"> </span>
-
-  
-
-und sie hat nichts von dem
+ah Tatiana und sie hat nichts von dem
 
 was geschieht
 
@@ -71,9 +67,7 @@ um den Körper einer Frau
 
 die zum Fenster eines Hotels blickt
 
-wo ich mit einer andern bin<span class="Apple-converted-space"> </span>
-
-oh Tatiana
+wo ich mit einer andern bin oh Tatiana
 
   
 
@@ -282,9 +276,7 @@ und auch streitbare Helden werden fallen
 ob ich weiß
 
 ob du Narzissen wohl immer noch so
-liebst<span class="Apple-converted-space"> </span>
-
-und ob die blaue Blume bei dir wohl noch blüht
+liebst und ob die blaue Blume bei dir wohl noch blüht
 
   
 
@@ -356,9 +348,7 @@ in unserer Andacht, bevor der Lärm sich breit macht.
   
 
 Am Peron ist der Bildschirm
-tot<span class="Apple-converted-space"> </span>
-
-die Fahrt, sie geht ins blaue jahrelang
+tot die Fahrt, sie geht ins blaue jahrelang
 
 du wolltest niemals nur ein Wort
 
@@ -558,17 +548,13 @@ du sagtest Rom
 
 ist zu weit weg mein Freund
 
-ja Rom<span class="Apple-converted-space"> </span>
-
-ist zu weit entfernt
+ja Rom ist zu weit entfernt
 
 du sagtest Rom
 
 ist zu weit weg mein Freund
 
-ja Rom<span class="Apple-converted-space"> </span>
-
-ist viel zu weit entfernt
+ja Rom ist viel zu weit entfernt
 
 viel zum ein entfernt
 
@@ -602,23 +588,17 @@ du sagtest Rom
 
 ist zu weit weg mein Freund
 
-ja Rom<span class="Apple-converted-space"> </span>
-
-ist zu weit entfernt
+ja Rom ist zu weit entfernt
 
 du sagtest Rom
 
 ist zu weit weg mein Freund
 
-ja Rom<span class="Apple-converted-space"> </span>
-
-ist viel zu weit entfernt
+ja Rom ist viel zu weit entfernt
 
   
 
-ja ich kostete<span class="Apple-converted-space"> </span>
-
-von der Pizza deines Träume
+ja ich kostete von der Pizza deines Träume
 
 trank den Perlwein deiner Liebe so frizzante
 
@@ -803,9 +783,7 @@ und Wolken zogen auf
 
 es verdunkelt sich das Firmament
 
-und drüben auf dem Hügel<span class="Apple-converted-space"> </span>
-
-da überkommt es mich
+und drüben auf dem Hügel da überkommt es mich
 
   
 

@@ -106,9 +106,7 @@ man wird das Gegenteil der andern
 
 die man nicht mal gehen sah
 
-und man nagt am Gnadenbrot<span class="Apple-converted-space"> </span>
-
-der Fotoalben jedes Jahr
+und man nagt am Gnadenbrot der Fotoalben jedes Jahr
 
   
 
@@ -483,9 +481,7 @@ dann gibt es einen Rückfall
   
 
 mit Liebeskummer darf man nicht allein aufs Feld zum
-hacken,<span class="Apple-converted-space"> </span>
-
-nicht allein
+hacken, nicht allein
 
 denn man vergisst leicht, dass es regnen kann
 
@@ -560,9 +556,7 @@ weil der schlaf so nah am Tod ist, viel zu nah
   
 
 und irgendwann passierst auch du mal eines dieser
-Fenster,<span class="Apple-converted-space"> </span>
-
-Hand in Hand
+Fenster, Hand in Hand
 
 ich werde drinnen sitzen, leicht gebeugt und habe dich bestimmt
 
@@ -641,9 +635,7 @@ Ich kenn nur Sein ist
 
   
 
-Ekstase für den einen<span class="Apple-converted-space"> </span>
-
-ist dem anderen ein Wagnis
+Ekstase für den einen ist dem anderen ein Wagnis
 
 nicht gleich Geige spielt
 
@@ -695,9 +687,7 @@ wenn Unglück, dann Routine
 
 lang gesucht und kompensiert
 
-sage Ja mein<span class="Apple-converted-space"> </span>
-
-Nein
+sage Ja mein Nein
 
 sage Sein ist
 
@@ -724,9 +714,7 @@ immer noch fest dran drauf dran lebendig zu verfallen
 
 mancher stirbt an Lebenslust
 
-andere am Leben<span class="Apple-converted-space"> </span>
-
-trinke ein Bier, ein Schnaps, schäm dich, denk dumm gemacht
+andere am Leben trinke ein Bier, ein Schnaps, schäm dich, denk dumm gemacht
 
 dumm gemacht
 
@@ -786,9 +774,7 @@ wenn ein Stein fallen will
 
 gib ihm besser einen Stoß
 
-es gibt nie lang Befreiung<span class="Apple-converted-space"> </span>
-
-aus den Klauen des Tods
+es gibt nie lang Befreiung aus den Klauen des Tods
 
 werd zum Schatten der Bekannten
 
@@ -803,9 +789,7 @@ ja fürchte nicht die Höhen
 aber fürchte den Reflex
 
 fürcht die Sehnsucht deines
-Körpers<span class="Apple-converted-space"> </span>
-
-und die Leute um dich rum, die sagen Pech Pech Pech Pech Pech
+Körpers und die Leute um dich rum, die sagen Pech Pech Pech Pech Pech
 
   
 
@@ -826,9 +810,7 @@ der über den Himmel zieht
   
 
 und dann fühle dich fühle dich
-fremd<span class="Apple-converted-space"> </span>
-
-fühle dich fremd
+fremd fühle dich fremd
 
 ja dann fühle dich fremd
 
